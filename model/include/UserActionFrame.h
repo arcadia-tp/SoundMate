@@ -9,11 +9,11 @@
 
 class UserAction {
 public:
-    UserData createUser();
-    void changeMusicInstrument(UserData User);
-    void changeMusicGenre(UserData User);
-    void changeContactData(UserData User);
-    void createMessage(UserData User1, UserData User2);
+    UserData* createUser();
+    void changeMusicInstrument(UserData *User);
+    void changeMusicGenre(UserData *User);
+    void changeContactData(UserData *User);
+    void createMessage(UserData *User1, UserData *User2);
     void login();
     void logout();
 };
