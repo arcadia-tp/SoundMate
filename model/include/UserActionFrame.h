@@ -14,8 +14,8 @@ public:
     void changeMusicGenre(UserData User);
     void changeContactData(UserData User);
     void createMessage(UserData User1, UserData User2);
-    void login() {};
-    void logout() {};
+    void login();
+    void logout();
 };
 
 #endif // USERACTIONFRAME_H_
