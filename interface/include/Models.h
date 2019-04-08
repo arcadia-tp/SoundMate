@@ -20,10 +20,12 @@ public:
     virtual ~IModel() = 0;
 };
 
+IModel::~IModel() {}
+
 class MainScreenModel : public IModel {
 public:
     MainScreenModel() : IModel() {};
-    ~MainScreenModel() override;
+    ~MainScreenModel() override {};
     bool autorization(std::string, std::string, int&);
     std::vector<User *> getRandom();
 };
@@ -31,7 +33,7 @@ public:
 class RegisterScreenModel : public IModel {
 public:
     RegisterScreenModel() : IModel() {};
-    ~RegisterScreenModel() override;
+    ~RegisterScreenModel() override {};
     bool fillingInfo(Field &);
     bool registerData(User_Data);
 
@@ -42,7 +44,7 @@ private:
 class IUserScreenModel : public IModel {
 public:
     explicit IUserScreenModel(Permissions perms) : IModel(), permissions(perms) {};
-    ~IUserScreenModel() override;
+    ~IUserScreenModel() override {};
     User_Data getData(int);
     Permissions& getPermissions();
 
@@ -54,21 +56,21 @@ protected:
 class StrangerUserScreenModel : public IUserScreenModel {
 public:
     explicit StrangerUserScreenModel(Permissions perms) : IUserScreenModel(perms) {};
-    ~StrangerUserScreenModel() override;
+    ~StrangerUserScreenModel() override {};
     bool inviteToFriend(int);
 };
 
 class FriendUserScreenModel : public IUserScreenModel {
 public:
     explicit FriendUserScreenModel(Permissions perms) : IUserScreenModel(perms) {};
-    ~FriendUserScreenModel() override;
+    ~FriendUserScreenModel() override {};
     bool sendMessage(std::string);
 };
 
 class MainUserScreenModel : public  IUserScreenModel {
 public:
     explicit MainUserScreenModel(Permissions perms) : IUserScreenModel(perms) {};
-    ~MainUserScreenModel() override;
+    ~MainUserScreenModel() override {};
     bool changeData(User_Data&);
     bool getFrineds();
     bool getNews();

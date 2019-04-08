@@ -17,10 +17,12 @@ private:
     std::vector<ViewObject *> objectList;
 };
 
+IView::~IView() {}
+
 class IViewButtonable : public IView {
 public:
     IViewButtonable() : IView() {};
-    ~IViewButtonable() override;
+    ~IViewButtonable() override {};
     virtual void showButtons() = 0;
     bool setButton(ButtonEvent&);
 
@@ -28,28 +30,29 @@ private:
     std::vector<Button *> buttons;
 };
 
+
 class MainScreenView : public IViewButtonable {
 public:
     MainScreenView() : IViewButtonable() {};
-    ~MainScreenView() override;
+    ~MainScreenView() override {};
     void showUsers(std::vector<User *>);
     void showFields();
-    void showButtons() override;
+    void showButtons() override {};
     void showBio();
     void showAutorization();
-    bool show() override;
-    void close() override;
+    bool show() override {};
+    void close() override {};
 };
 
 class RegisterScreenView : public IViewButtonable {
 public:
     RegisterScreenView() : IViewButtonable() {};
-    ~RegisterScreenView() override;
+    ~RegisterScreenView() override {};
     void showFields();
-    void showButtons() override;
+    void showButtons() override {};
     void showError();
-    bool show() override;
-    void close() override;
+    bool show() override {};
+    void close() override {};
 
 private:
     std::vector<Field *> fieldList;
@@ -57,13 +60,13 @@ private:
 
 class UserScreenView : public IViewButtonable {
     UserScreenView() : IViewButtonable() {};
-    ~UserScreenView() override;
+    ~UserScreenView() override {};
     void showFields();
-    void showButtons() override;
+    void showButtons() override {};
     void showError();
     void showFriendList(std::vector<User *>);
-    bool show() override;
-    void close() override;
+    bool show() override {};
+    void close() override {};
 
 private:
     std::vector<Field *> fieldList;
@@ -72,14 +75,14 @@ private:
 class MessengerScreenView : public IViewButtonable {
 public:
     MessengerScreenView() : IViewButtonable() {};
-    ~MessengerScreenView() override;
+    ~MessengerScreenView() override {};
     void showFields();
-    void showButtons() override;
+    void showButtons() override {};
     void showError();
     bool shoeChatList(std::vector<Chat *>);
     bool showChat(Chat &);
-    bool show() override;
-    void close() override;
+    bool show() override {};
+    void close() override {};
 
 private:
     std::vector<Field *> fieldList;
@@ -88,13 +91,13 @@ private:
 class SearchScreenView : public IViewButtonable {
 public:
     SearchScreenView() : IViewButtonable() {};
-    ~SearchScreenView() override;
-    void showButtons() override;
+    ~SearchScreenView() override {};
+    void showButtons() override {};
     void showUsers(std::vector<User *>);
     void showBio();
     void showFilters(Filter &);
-    bool show() override;
-    void close() override;
+    bool show() override {};
+    void close() override {};
 };
 
 #endif //SOUNDMATE_VIEWS_H
