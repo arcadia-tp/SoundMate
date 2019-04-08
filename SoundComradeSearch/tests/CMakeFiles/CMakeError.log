@@ -1,0 +1,110 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3e656/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3e656.dir/build.make CMakeFiles/cmTC_3e656.dir/build
+make[1]: вход в каталог «/home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_3e656.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3e656.dir/CheckSymbolExists.c.o   -c /home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3e656
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e656.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_3e656.dir/CheckSymbolExists.c.o  -o cmTC_3e656 
+CMakeFiles/cmTC_3e656.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_3e656.dir/build.make:97: recipe for target 'cmTC_3e656' failed
+make[1]: *** [cmTC_3e656] Error 1
+make[1]: выход из каталога «/home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp»
+Makefile:126: recipe for target 'cmTC_3e656/fast' failed
+make: *** [cmTC_3e656/fast] Error 2
+
+File /home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bde64/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bde64.dir/build.make CMakeFiles/cmTC_bde64.dir/build
+make[1]: вход в каталог «/home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_bde64.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_bde64.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bde64
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bde64.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_bde64.dir/CheckFunctionExists.c.o  -o cmTC_bde64 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_bde64.dir/build.make:97: recipe for target 'cmTC_bde64' failed
+make[1]: *** [cmTC_bde64] Error 1
+make[1]: выход из каталога «/home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp»
+Makefile:126: recipe for target 'cmTC_bde64/fast' failed
+make: *** [cmTC_bde64/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d1816/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d1816.dir/build.make CMakeFiles/cmTC_d1816.dir/build
+make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_d1816.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d1816.dir/CheckSymbolExists.c.o   -c /home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d1816
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1816.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_d1816.dir/CheckSymbolExists.c.o  -o cmTC_d1816 
+CMakeFiles/cmTC_d1816.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d1816.dir/build.make:97: recipe for target 'cmTC_d1816' failed
+make[1]: *** [cmTC_d1816] Error 1
+make[1]: выход из каталога «/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp»
+Makefile:126: recipe for target 'cmTC_d1816/fast' failed
+make: *** [cmTC_d1816/fast] Error 2
+
+File /home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2b9ec/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2b9ec.dir/build.make CMakeFiles/cmTC_2b9ec.dir/build
+make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_2b9ec.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_2b9ec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2b9ec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b9ec.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_2b9ec.dir/CheckFunctionExists.c.o  -o cmTC_2b9ec -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_2b9ec.dir/build.make:97: recipe for target 'cmTC_2b9ec' failed
+make[1]: *** [cmTC_2b9ec] Error 1
+make[1]: выход из каталога «/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp»
+Makefile:126: recipe for target 'cmTC_2b9ec/fast' failed
+make: *** [cmTC_2b9ec/fast] Error 2
+
+
