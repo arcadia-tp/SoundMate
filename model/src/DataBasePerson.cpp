@@ -3,7 +3,7 @@
 #include <boost/lexical_cast.hpp>
 
 
-// Класс PrivateData **********************
+// Class PrivateData **********************
 
 PrivateData::PrivateData(){}
 PrivateData::~PrivateData(){}
@@ -32,7 +32,7 @@ std::string PrivateData::getPassword(){
     return password;
 }
 
-// Класс PersonalData *********************
+// Class PersonalData *********************
 
 PersonalData::PersonalData(){}
 PersonalData::~PersonalData(){}
@@ -66,7 +66,7 @@ std::string PersonalData::getPersonalInfo(){
     return personal_information;
 }
 
-// Класс CommunicationData ****************
+// Class CommunicationData ****************
 
 CommunicationData::CommunicationData(){}
 CommunicationData::~CommunicationData(){}
@@ -86,7 +86,7 @@ std::string CommunicationData::getCommunicationData(std::string app){
     return path;
 }
 
-// Класс PersonalMusic ********************
+// Class PersonalMusic ********************
 
 PersonalMusic::PersonalMusic(){}
 PersonalMusic::~PersonalMusic(){}
@@ -131,7 +131,7 @@ std::set<std::string> PersonalMusic::getMusicalGenres(){
     return musical_genres;
 }
 
-// Класс DropdownList *********************
+// Class DropdownList *********************
 
 DropdownList::DropdownList(){
     musical_instrument = { "guitar","piano","violin","drums","flute" };
@@ -155,7 +155,7 @@ std::string DropdownList::getMusicalGenre(int id){
     return musical_genre[id];
 }
 
-// Класс PersonalMedia ********************
+// Class PersonalMedia ********************
 
 PersonalMedia::PersonalMedia(){}
 PersonalMedia::~PersonalMedia(){}
@@ -168,7 +168,7 @@ std::string PersonalMedia::getAvatarPhoto(){
 }
 
 
-// Класс Friends **************************
+// Class Friends **************************
 
 Friends::Friends(){}
 Friends::~Friends(){}
@@ -191,7 +191,7 @@ std::string Friends::getFriends() {
     return str;
 }
 
-// Класс UserData *************************
+// Class UserData *************************
 
 UserData::UserData(){}
 UserData::~UserData(){}

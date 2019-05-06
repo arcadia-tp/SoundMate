@@ -1,7 +1,7 @@
 #include "DataBaseMessanger.h"
 
 
-// Класс Chat *****************************
+// Class Chat *****************************
 
 Chat::Chat(){}
 Chat::~Chat(){}
@@ -44,7 +44,7 @@ PictureMessage Chat::getPictureMessage(int id_m){
     return chat_p_massages[id_m];
 }
 
-// Класс TextMessage **********************
+// Class TextMessage **********************
 
 TextMessage::TextMessage(){}
 TextMessage::TextMessage(int id_, std::string content, std::string date) {
@@ -63,7 +63,7 @@ std::string TextMessage::getContent(){
     return text_content;
 }
 
-// Класс PictureMessage *******************
+// Class PictureMessage *******************
 
 PictureMessage::PictureMessage(){}
 PictureMessage::PictureMessage(int id_, std::string content, std::string date) {
