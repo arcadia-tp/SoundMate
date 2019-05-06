@@ -7,18 +7,20 @@
 
 #include <data_base_query.hpp>
 #include <db_parser.hpp>
+#include <memory>
 
-class DataBaseConnection : boost::enable_shared_from_this<DataBaseConnection> {
-    boost::asio::ip::tcp::socket sock_;
-    char *message_buffer_;
-    DBParser *parser_;
-    boost::shared_ptr <DataBaseQueryStorage> query_storage_;
+class DataBaseConnection : std::enable_shared_from_this<DataBaseConnection> {
  public:
     DataBaseConnection(boost::asio::io_service &service,
-                                   DBParser *parser);
+                                   AbsDBParser *parser);
     void StopConnection();
     void ReadRequest();
     void ProcessRequest();
+ private:
+    boost::asio::ip::tcp::socket sock_; //remove from here to impl
+    char *message_buffer_;
+    AbsDBParser *parser_;
+    boost::shared_ptr <DataBaseQueryStorage> query_storage_;
 };
 
 #endif

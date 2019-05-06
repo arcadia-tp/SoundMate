@@ -1,35 +1,43 @@
 #ifndef REQUEST_HPP
 #define REQUEST_HPP
 
-#include <string>
-#include <vector>
-#include <utility>
 #include <map>
-#include <query_processor.hpp>
+#include <string>
+#include <utility>
+#include <vector>
+
+#include <category.hpp>
 #include <data_base_query.hpp>
+#include <query_processor.hpp>
+#include <response_from_db.hpp>
 
-using std::pair, std::string, std::vector;
 
-enum {};
+namespace request_state {
+   enum {READY_FOR_DB, READY_TO_PROCESS, OVER, READY_FOR_CLIENT, WAITING};
+}
 
-typedef vector<pair<string, vector<string>>> RequestVector;
-typedef std::vector<std::pair<int, std::vector<std::string>>>CategoryQuery;
-
-class Request {
-private:
-    int request_id_;
-    RequestVector request_vec_;
-    int request_state_;
-    std::map<int, int> users_map_;
-    AbstractProcessor *processor_;
-    DataBaseQueryStorage *d_b_query_storage_;
+template <class UserContainer> class Request {
 public:
-    Request();
-    ~Request();
-    void ProceedRequest();
+  Request(ClientQuery &client_query, const int request_id);
+  ~Request();
+  int GetState() const;
+  std::vector<UserData> &GetCategoryQuery();
+  void CreateCategoryQuery();
+  void Calculate();
+
 private:
-    void Calculate();
-    void CreateCategoryQuery();
-    CategoryQuery& GetCategoryQuery();
+  int request_id_;
+  ClientQuery client_query_;
+  int state_;
+  int category_to_process_;
+  UserContainer users_priorities_;
+
+  AbstractProcessor<UserContainer> *processor_;
+
+  DataBaseQueryStorage *d_b_query_storage_;
+
+private:
 };
+
+
 #endif

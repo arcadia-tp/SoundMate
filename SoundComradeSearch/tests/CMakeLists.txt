@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17 -pthread")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17 -g -pthread")
 
 set(PROJECT_ROOT ../)
 
@@ -15,15 +15,19 @@ set(INCLUDE ${TEST_ROOT}/include)
 
 set(GMOCK_DIR ${PROJECT_ROOT}/shared_files/googletest/googlemock/)
 
-set(SOURCE_LIB ${INCLUDE}/test_parser.cpp)
+#set(SOURCE_LIB ${INCLUDE}/test_parser.cpp)
 
-set(SRC ../src/client_connection.cpp ../src/cl_parser.cpp ../src/query_processor.cpp 
-      ../src/data_base_query.cpp)
+#set(SRC ../src/client_connection.cpp ../src/cl_parser.cpp ../src/query_processor.cpp 
+#      ../src/data_base_query.cpp ../src/db_parser.cpp)
 
 #set(SRC ../src/${})
 
-set(TEST_SRC ./src/test_cl_parser.cpp ./src/test_client_connection.cpp 
-      ./src/test_query_processor.cpp ./src/test_data_base_query)
+#set(TEST_SRC ./src/test_cl_parser.cpp ./src/test_client_connection.cpp 
+#      ./src/test_query_processor.cpp ./src/test_data_base_query ./src/test_db_parser.cpp)
+
+set(SRC ../src/cl_parser.cpp ../src/db_parser.cpp ../src/query_processor.cpp)
+set(TEST_SRC ./src/test_cl_parser.cpp ./src/test_db_parser.cpp ./src/test_query_processor.cpp)
+
 
 SET(Boost_USE_STATIC_LIBS OFF)
 SET(Boost_USE_MULTITHREAD ON)

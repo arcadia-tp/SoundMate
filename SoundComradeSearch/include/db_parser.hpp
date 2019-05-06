@@ -1,16 +1,19 @@
 #ifndef DB_PARSER_HPP
 #define DB_PARSER_HPP
 
+
 #include <vector>
 #include <string>
 #include <utility>
 
-typedef std::vector<std::pair<int, std::vector<std::string>>> ResponseFromDB;
+#include <response_from_db.hpp>
 
-typedef 
-class DBParser {
+class AbsDBParser {
 public:
-    virtual ResponseFromDB &Parse(const char*, size_t);
+    virtual ResponseFromDB Parse(const std::string &) = 0;
+    virtual ~AbsDBParser() {}
 };
+
+// AbsDBParser::~AbsDBParser() {};
 
 #endif

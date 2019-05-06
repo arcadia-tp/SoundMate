@@ -1,4 +1,4 @@
-# Install script for directory: /home/vtim/project/SoundComradeSearch/SoundMate/tests
+# Install script for directory: /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/vtim/project/SoundComradeSearch/SoundMate/tests/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vtim/project/SoundComradeSearch/SoundMate/tests
+CMAKE_SOURCE_DIR = /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vtim/project/SoundComradeSearch/SoundMate/tests
+CMAKE_BINARY_DIR = /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests
 
 # Include any dependencies generated for this target.
 include CMakeFiles/tests.dir/depend.make
@@ -57,114 +57,90 @@ include CMakeFiles/tests.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/tests.dir/flags.make
 
-CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.cpp.o: CMakeFiles/tests.dir/flags.make
-CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.cpp.o: /home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.cpp.o -c /home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.cpp
+CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.cpp.o: CMakeFiles/tests.dir/flags.make
+CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.cpp.o: /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.cpp.o -c /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.cpp
 
-CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.cpp > CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.cpp.i
+CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.cpp > CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.cpp.i
 
-CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.cpp -o CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.cpp.s
+CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.cpp -o CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.cpp.s
 
-CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.cpp.o.requires:
+CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.cpp.o.requires:
 
-.PHONY : CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.cpp.o.requires
+.PHONY : CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.cpp.o.requires
 
-CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.cpp.o.provides: CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.cpp.o.requires
-	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.cpp.o.provides.build
-.PHONY : CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.cpp.o.provides
+CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.cpp.o.provides: CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.cpp.o.requires
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.cpp.o.provides.build
+.PHONY : CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.cpp.o.provides
 
-CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.cpp.o.provides.build: CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.cpp.o
-
-
-CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.cpp.o: CMakeFiles/tests.dir/flags.make
-CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.cpp.o: /home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.cpp.o -c /home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.cpp
-
-CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.cpp > CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.cpp.i
-
-CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.cpp -o CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.cpp.s
-
-CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.cpp.o.requires:
-
-.PHONY : CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.cpp.o.requires
-
-CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.cpp.o.provides: CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.cpp.o.requires
-	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.cpp.o.provides.build
-.PHONY : CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.cpp.o.provides
-
-CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.cpp.o.provides.build: CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.cpp.o
+CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.cpp.o.provides.build: CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.cpp.o
 
 
-CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.cpp.o: CMakeFiles/tests.dir/flags.make
-CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.cpp.o: /home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.cpp.o -c /home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.cpp
+CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.cpp.o: CMakeFiles/tests.dir/flags.make
+CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.cpp.o: /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.cpp.o -c /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.cpp
 
-CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.cpp > CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.cpp.i
+CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.cpp > CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.cpp.i
 
-CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.cpp -o CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.cpp.s
+CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.cpp -o CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.cpp.s
 
-CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.cpp.o.requires:
+CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.cpp.o.requires:
 
-.PHONY : CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.cpp.o.requires
+.PHONY : CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.cpp.o.requires
 
-CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.cpp.o.provides: CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.cpp.o.requires
-	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.cpp.o.provides.build
-.PHONY : CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.cpp.o.provides
+CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.cpp.o.provides: CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.cpp.o.requires
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.cpp.o.provides.build
+.PHONY : CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.cpp.o.provides
 
-CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.cpp.o.provides.build: CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.cpp.o
+CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.cpp.o.provides.build: CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.cpp.o
 
 
-CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.cpp.o: CMakeFiles/tests.dir/flags.make
-CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.cpp.o: /home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.cpp.o -c /home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.cpp
+CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.cpp.o: CMakeFiles/tests.dir/flags.make
+CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.cpp.o: /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.cpp.o -c /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.cpp
 
-CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.cpp > CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.cpp.i
+CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.cpp > CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.cpp.i
 
-CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.cpp -o CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.cpp.s
+CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.cpp -o CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.cpp.s
 
-CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.cpp.o.requires:
+CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.cpp.o.requires:
 
-.PHONY : CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.cpp.o.requires
+.PHONY : CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.cpp.o.requires
 
-CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.cpp.o.provides: CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.cpp.o.requires
-	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.cpp.o.provides.build
-.PHONY : CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.cpp.o.provides
+CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.cpp.o.provides: CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.cpp.o.requires
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.cpp.o.provides.build
+.PHONY : CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.cpp.o.provides
 
-CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.cpp.o.provides.build: CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.cpp.o
+CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.cpp.o.provides.build: CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.cpp.o
 
 
 CMakeFiles/tests.dir/src/test_cl_parser.cpp.o: CMakeFiles/tests.dir/flags.make
 CMakeFiles/tests.dir/src/test_cl_parser.cpp.o: src/test_cl_parser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tests.dir/src/test_cl_parser.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/src/test_cl_parser.cpp.o -c /home/vtim/project/SoundComradeSearch/SoundMate/tests/src/test_cl_parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tests.dir/src/test_cl_parser.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/src/test_cl_parser.cpp.o -c /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/src/test_cl_parser.cpp
 
 CMakeFiles/tests.dir/src/test_cl_parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/src/test_cl_parser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vtim/project/SoundComradeSearch/SoundMate/tests/src/test_cl_parser.cpp > CMakeFiles/tests.dir/src/test_cl_parser.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/src/test_cl_parser.cpp > CMakeFiles/tests.dir/src/test_cl_parser.cpp.i
 
 CMakeFiles/tests.dir/src/test_cl_parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/src/test_cl_parser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vtim/project/SoundComradeSearch/SoundMate/tests/src/test_cl_parser.cpp -o CMakeFiles/tests.dir/src/test_cl_parser.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/src/test_cl_parser.cpp -o CMakeFiles/tests.dir/src/test_cl_parser.cpp.s
 
 CMakeFiles/tests.dir/src/test_cl_parser.cpp.o.requires:
 
@@ -177,42 +153,42 @@ CMakeFiles/tests.dir/src/test_cl_parser.cpp.o.provides: CMakeFiles/tests.dir/src
 CMakeFiles/tests.dir/src/test_cl_parser.cpp.o.provides.build: CMakeFiles/tests.dir/src/test_cl_parser.cpp.o
 
 
-CMakeFiles/tests.dir/src/test_client_connection.cpp.o: CMakeFiles/tests.dir/flags.make
-CMakeFiles/tests.dir/src/test_client_connection.cpp.o: src/test_client_connection.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/tests.dir/src/test_client_connection.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/src/test_client_connection.cpp.o -c /home/vtim/project/SoundComradeSearch/SoundMate/tests/src/test_client_connection.cpp
+CMakeFiles/tests.dir/src/test_db_parser.cpp.o: CMakeFiles/tests.dir/flags.make
+CMakeFiles/tests.dir/src/test_db_parser.cpp.o: src/test_db_parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/tests.dir/src/test_db_parser.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/src/test_db_parser.cpp.o -c /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/src/test_db_parser.cpp
 
-CMakeFiles/tests.dir/src/test_client_connection.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/src/test_client_connection.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vtim/project/SoundComradeSearch/SoundMate/tests/src/test_client_connection.cpp > CMakeFiles/tests.dir/src/test_client_connection.cpp.i
+CMakeFiles/tests.dir/src/test_db_parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/src/test_db_parser.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/src/test_db_parser.cpp > CMakeFiles/tests.dir/src/test_db_parser.cpp.i
 
-CMakeFiles/tests.dir/src/test_client_connection.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/src/test_client_connection.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vtim/project/SoundComradeSearch/SoundMate/tests/src/test_client_connection.cpp -o CMakeFiles/tests.dir/src/test_client_connection.cpp.s
+CMakeFiles/tests.dir/src/test_db_parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/src/test_db_parser.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/src/test_db_parser.cpp -o CMakeFiles/tests.dir/src/test_db_parser.cpp.s
 
-CMakeFiles/tests.dir/src/test_client_connection.cpp.o.requires:
+CMakeFiles/tests.dir/src/test_db_parser.cpp.o.requires:
 
-.PHONY : CMakeFiles/tests.dir/src/test_client_connection.cpp.o.requires
+.PHONY : CMakeFiles/tests.dir/src/test_db_parser.cpp.o.requires
 
-CMakeFiles/tests.dir/src/test_client_connection.cpp.o.provides: CMakeFiles/tests.dir/src/test_client_connection.cpp.o.requires
-	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/test_client_connection.cpp.o.provides.build
-.PHONY : CMakeFiles/tests.dir/src/test_client_connection.cpp.o.provides
+CMakeFiles/tests.dir/src/test_db_parser.cpp.o.provides: CMakeFiles/tests.dir/src/test_db_parser.cpp.o.requires
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/test_db_parser.cpp.o.provides.build
+.PHONY : CMakeFiles/tests.dir/src/test_db_parser.cpp.o.provides
 
-CMakeFiles/tests.dir/src/test_client_connection.cpp.o.provides.build: CMakeFiles/tests.dir/src/test_client_connection.cpp.o
+CMakeFiles/tests.dir/src/test_db_parser.cpp.o.provides.build: CMakeFiles/tests.dir/src/test_db_parser.cpp.o
 
 
 CMakeFiles/tests.dir/src/test_query_processor.cpp.o: CMakeFiles/tests.dir/flags.make
 CMakeFiles/tests.dir/src/test_query_processor.cpp.o: src/test_query_processor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/tests.dir/src/test_query_processor.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/src/test_query_processor.cpp.o -c /home/vtim/project/SoundComradeSearch/SoundMate/tests/src/test_query_processor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/tests.dir/src/test_query_processor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/src/test_query_processor.cpp.o -c /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/src/test_query_processor.cpp
 
 CMakeFiles/tests.dir/src/test_query_processor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/src/test_query_processor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vtim/project/SoundComradeSearch/SoundMate/tests/src/test_query_processor.cpp > CMakeFiles/tests.dir/src/test_query_processor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/src/test_query_processor.cpp > CMakeFiles/tests.dir/src/test_query_processor.cpp.i
 
 CMakeFiles/tests.dir/src/test_query_processor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/src/test_query_processor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vtim/project/SoundComradeSearch/SoundMate/tests/src/test_query_processor.cpp -o CMakeFiles/tests.dir/src/test_query_processor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/src/test_query_processor.cpp -o CMakeFiles/tests.dir/src/test_query_processor.cpp.s
 
 CMakeFiles/tests.dir/src/test_query_processor.cpp.o.requires:
 
@@ -225,42 +201,18 @@ CMakeFiles/tests.dir/src/test_query_processor.cpp.o.provides: CMakeFiles/tests.d
 CMakeFiles/tests.dir/src/test_query_processor.cpp.o.provides.build: CMakeFiles/tests.dir/src/test_query_processor.cpp.o
 
 
-CMakeFiles/tests.dir/src/test_data_base_query.cpp.o: CMakeFiles/tests.dir/flags.make
-CMakeFiles/tests.dir/src/test_data_base_query.cpp.o: src/test_data_base_query.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/tests.dir/src/test_data_base_query.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/src/test_data_base_query.cpp.o -c /home/vtim/project/SoundComradeSearch/SoundMate/tests/src/test_data_base_query.cpp
-
-CMakeFiles/tests.dir/src/test_data_base_query.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/src/test_data_base_query.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vtim/project/SoundComradeSearch/SoundMate/tests/src/test_data_base_query.cpp > CMakeFiles/tests.dir/src/test_data_base_query.cpp.i
-
-CMakeFiles/tests.dir/src/test_data_base_query.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/src/test_data_base_query.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vtim/project/SoundComradeSearch/SoundMate/tests/src/test_data_base_query.cpp -o CMakeFiles/tests.dir/src/test_data_base_query.cpp.s
-
-CMakeFiles/tests.dir/src/test_data_base_query.cpp.o.requires:
-
-.PHONY : CMakeFiles/tests.dir/src/test_data_base_query.cpp.o.requires
-
-CMakeFiles/tests.dir/src/test_data_base_query.cpp.o.provides: CMakeFiles/tests.dir/src/test_data_base_query.cpp.o.requires
-	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/test_data_base_query.cpp.o.provides.build
-.PHONY : CMakeFiles/tests.dir/src/test_data_base_query.cpp.o.provides
-
-CMakeFiles/tests.dir/src/test_data_base_query.cpp.o.provides.build: CMakeFiles/tests.dir/src/test_data_base_query.cpp.o
-
-
 CMakeFiles/tests.dir/tests.cpp.o: CMakeFiles/tests.dir/flags.make
 CMakeFiles/tests.dir/tests.cpp.o: tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/tests.dir/tests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/tests.cpp.o -c /home/vtim/project/SoundComradeSearch/SoundMate/tests/tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/tests.dir/tests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/tests.cpp.o -c /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/tests.cpp
 
 CMakeFiles/tests.dir/tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/tests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vtim/project/SoundComradeSearch/SoundMate/tests/tests.cpp > CMakeFiles/tests.dir/tests.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/tests.cpp > CMakeFiles/tests.dir/tests.cpp.i
 
 CMakeFiles/tests.dir/tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/tests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vtim/project/SoundComradeSearch/SoundMate/tests/tests.cpp -o CMakeFiles/tests.dir/tests.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/tests.cpp -o CMakeFiles/tests.dir/tests.cpp.s
 
 CMakeFiles/tests.dir/tests.cpp.o.requires:
 
@@ -275,34 +227,30 @@ CMakeFiles/tests.dir/tests.cpp.o.provides.build: CMakeFiles/tests.dir/tests.cpp.
 
 # Object files for target tests
 tests_OBJECTS = \
-"CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.cpp.o" \
-"CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.cpp.o" \
-"CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.cpp.o" \
-"CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.cpp.o" \
+"CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.cpp.o" \
+"CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.cpp.o" \
+"CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.cpp.o" \
 "CMakeFiles/tests.dir/src/test_cl_parser.cpp.o" \
-"CMakeFiles/tests.dir/src/test_client_connection.cpp.o" \
+"CMakeFiles/tests.dir/src/test_db_parser.cpp.o" \
 "CMakeFiles/tests.dir/src/test_query_processor.cpp.o" \
-"CMakeFiles/tests.dir/src/test_data_base_query.cpp.o" \
 "CMakeFiles/tests.dir/tests.cpp.o"
 
 # External object files for target tests
 tests_EXTERNAL_OBJECTS =
 
-tests: CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.cpp.o
-tests: CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.cpp.o
-tests: CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.cpp.o
-tests: CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.cpp.o
+tests: CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.cpp.o
+tests: CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.cpp.o
+tests: CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.cpp.o
 tests: CMakeFiles/tests.dir/src/test_cl_parser.cpp.o
-tests: CMakeFiles/tests.dir/src/test_client_connection.cpp.o
+tests: CMakeFiles/tests.dir/src/test_db_parser.cpp.o
 tests: CMakeFiles/tests.dir/src/test_query_processor.cpp.o
-tests: CMakeFiles/tests.dir/src/test_data_base_query.cpp.o
 tests: CMakeFiles/tests.dir/tests.cpp.o
 tests: CMakeFiles/tests.dir/build.make
 tests: /usr/lib/x86_64-linux-gnu/libboost_system.so
 tests: /usr/lib/x86_64-linux-gnu/libboost_thread.so
 tests: /usr/lib/x86_64-linux-gnu/libboost_regex.so
 tests: CMakeFiles/tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable tests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -310,14 +258,12 @@ CMakeFiles/tests.dir/build: tests
 
 .PHONY : CMakeFiles/tests.dir/build
 
-CMakeFiles/tests.dir/requires: CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.cpp.o.requires
-CMakeFiles/tests.dir/requires: CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.cpp.o.requires
-CMakeFiles/tests.dir/requires: CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.cpp.o.requires
-CMakeFiles/tests.dir/requires: CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.cpp.o.requires
+CMakeFiles/tests.dir/requires: CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.cpp.o.requires
+CMakeFiles/tests.dir/requires: CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.cpp.o.requires
+CMakeFiles/tests.dir/requires: CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.cpp.o.requires
 CMakeFiles/tests.dir/requires: CMakeFiles/tests.dir/src/test_cl_parser.cpp.o.requires
-CMakeFiles/tests.dir/requires: CMakeFiles/tests.dir/src/test_client_connection.cpp.o.requires
+CMakeFiles/tests.dir/requires: CMakeFiles/tests.dir/src/test_db_parser.cpp.o.requires
 CMakeFiles/tests.dir/requires: CMakeFiles/tests.dir/src/test_query_processor.cpp.o.requires
-CMakeFiles/tests.dir/requires: CMakeFiles/tests.dir/src/test_data_base_query.cpp.o.requires
 CMakeFiles/tests.dir/requires: CMakeFiles/tests.dir/tests.cpp.o.requires
 
 .PHONY : CMakeFiles/tests.dir/requires
@@ -327,6 +273,6 @@ CMakeFiles/tests.dir/clean:
 .PHONY : CMakeFiles/tests.dir/clean
 
 CMakeFiles/tests.dir/depend:
-	cd /home/vtim/project/SoundComradeSearch/SoundMate/tests && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vtim/project/SoundComradeSearch/SoundMate/tests /home/vtim/project/SoundComradeSearch/SoundMate/tests /home/vtim/project/SoundComradeSearch/SoundMate/tests /home/vtim/project/SoundComradeSearch/SoundMate/tests /home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tests.dir/depend
 

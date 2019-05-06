@@ -4,15 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.cpp" "/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.cpp.o"
-  "/home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.cpp" "/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.cpp.o"
-  "/home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.cpp" "/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.cpp.o"
-  "/home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.cpp" "/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.cpp.o"
-  "/home/vtim/project/SoundComradeSearch/SoundMate/tests/src/test_cl_parser.cpp" "/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/tests.dir/src/test_cl_parser.cpp.o"
-  "/home/vtim/project/SoundComradeSearch/SoundMate/tests/src/test_client_connection.cpp" "/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/tests.dir/src/test_client_connection.cpp.o"
-  "/home/vtim/project/SoundComradeSearch/SoundMate/tests/src/test_data_base_query.cpp" "/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/tests.dir/src/test_data_base_query.cpp.o"
-  "/home/vtim/project/SoundComradeSearch/SoundMate/tests/src/test_query_processor.cpp" "/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/tests.dir/src/test_query_processor.cpp.o"
-  "/home/vtim/project/SoundComradeSearch/SoundMate/tests/tests.cpp" "/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/tests.dir/tests.cpp.o"
+  "/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.cpp" "/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.cpp.o"
+  "/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.cpp" "/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.cpp.o"
+  "/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.cpp" "/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.cpp.o"
+  "/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/src/test_cl_parser.cpp" "/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/tests.dir/src/test_cl_parser.cpp.o"
+  "/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/src/test_db_parser.cpp" "/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/tests.dir/src/test_db_parser.cpp.o"
+  "/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/src/test_query_processor.cpp" "/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/tests.dir/src/test_query_processor.cpp.o"
+  "/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/tests.cpp" "/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/tests.dir/tests.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

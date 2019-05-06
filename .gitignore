@@ -1,0 +1,12 @@
+./tests/CMakeFiles/
+Makefile
+CMakeCache.txt
+cmake_install.cmake
+./tests/cmake_install.cmake
+*.a
+main
+./tests/CMakeCache.txt
+.vscode
+CMakeFiles
+*.swp
+*.o

@@ -1,4 +1,4 @@
-The system is: Linux - 4.15.0-46-generic - x86_64
+The system is: Linux - 4.15.0-47-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: 
@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/vtim/cpp_techno/soundMate/tests/CMakeFiles/3.10.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/3.10.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/vtim/cpp_techno/soundMate/tests/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp
+Change Dir: /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fc51e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_fc51e.dir/build.make CMakeFiles/cmTC_fc51e.dir/build
-make[1]: вход в каталог «/home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_fc51e.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_fc51e.dir/testCCompiler.c.o   -c /home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_fc51e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc51e.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_fc51e.dir/testCCompiler.c.o  -o cmTC_fc51e 
-make[1]: выход из каталога «/home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_d5726/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d5726.dir/build.make CMakeFiles/cmTC_d5726.dir/build
+make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_d5726.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d5726.dir/testCCompiler.c.o   -c /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_d5726
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5726.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_d5726.dir/testCCompiler.c.o  -o cmTC_d5726 
+make[1]: выход из каталога «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp
+Change Dir: /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8c8b9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8c8b9.dir/build.make CMakeFiles/cmTC_8c8b9.dir/build
-make[1]: вход в каталог «/home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_8c8b9.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_8c8b9.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_8c8b9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c8b9.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTC_8c8b9.dir/CMakeCCompilerABI.c.o  -o cmTC_8c8b9 
+Run Build Command:"/usr/bin/make" "cmTC_a1850/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a1850.dir/build.make CMakeFiles/cmTC_a1850.dir/build
+make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_a1850.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a1850.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_a1850
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1850.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_a1850.dir/CMakeCCompilerABI.c.o  -o cmTC_a1850 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -61,24 +61,24 @@ Thread model: posix
 gcc version 7.3.0 (Ubuntu 7.3.0-27ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8c8b9' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc50LXL3.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8c8b9 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_8c8b9.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8c8b9' '-mtune=generic' '-march=x86-64'
-make[1]: выход из каталога «/home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp»
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a1850' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cciNFFZQ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a1850 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_a1850.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a1850' '-mtune=generic' '-march=x86-64'
+make[1]: выход из каталога «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_8c8b9/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_8c8b9.dir/build.make CMakeFiles/cmTC_8c8b9.dir/build]
-  ignore line: [make[1]: вход в каталог «/home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp»]
-  ignore line: [Building C object CMakeFiles/cmTC_8c8b9.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_8c8b9.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_8c8b9]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c8b9.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_8c8b9.dir/CMakeCCompilerABI.c.o  -o cmTC_8c8b9 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a1850/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a1850.dir/build.make CMakeFiles/cmTC_a1850.dir/build]
+  ignore line: [make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»]
+  ignore line: [Building C object CMakeFiles/cmTC_a1850.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_a1850.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_a1850]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1850.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_a1850.dir/CMakeCCompilerABI.c.o  -o cmTC_a1850 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.3.0 (Ubuntu 7.3.0-27ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8c8b9' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc50LXL3.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8c8b9 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_8c8b9.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a1850' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cciNFFZQ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a1850 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_a1850.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc50LXL3.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cciNFFZQ.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -115,7 +115,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_8c8b9] ==> ignore
+    arg [cmTC_a1850] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -127,7 +127,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_8c8b9.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_a1850.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -157,17 +157,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp
+Change Dir: /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_43182/fast"
-/usr/bin/make -f CMakeFiles/cmTC_43182.dir/build.make CMakeFiles/cmTC_43182.dir/build
-make[1]: вход в каталог «/home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_43182.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_43182.dir/feature_tests.c.o   -c /home/vtim/cpp_techno/soundMate/tests/CMakeFiles/feature_tests.c
-Linking C executable cmTC_43182
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43182.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_43182.dir/feature_tests.c.o  -o cmTC_43182 
-make[1]: выход из каталога «/home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_1e60b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1e60b.dir/build.make CMakeFiles/cmTC_1e60b.dir/build
+make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_1e60b.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_1e60b.dir/feature_tests.c.o   -c /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/feature_tests.c
+Linking C executable cmTC_1e60b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e60b.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_1e60b.dir/feature_tests.c.o  -o cmTC_1e60b 
+make[1]: выход из каталога «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -177,17 +177,17 @@ make[1]: выход из каталога «/home/vtim/cpp_techno/soundMate/test
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp
+Change Dir: /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9ca59/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9ca59.dir/build.make CMakeFiles/cmTC_9ca59.dir/build
-make[1]: вход в каталог «/home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_9ca59.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_9ca59.dir/feature_tests.c.o   -c /home/vtim/cpp_techno/soundMate/tests/CMakeFiles/feature_tests.c
-Linking C executable cmTC_9ca59
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ca59.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_9ca59.dir/feature_tests.c.o  -o cmTC_9ca59 
-make[1]: выход из каталога «/home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_bece5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bece5.dir/build.make CMakeFiles/cmTC_bece5.dir/build
+make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_bece5.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_bece5.dir/feature_tests.c.o   -c /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/feature_tests.c
+Linking C executable cmTC_bece5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bece5.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_bece5.dir/feature_tests.c.o  -o cmTC_bece5 
+make[1]: выход из каталога «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -197,17 +197,17 @@ make[1]: выход из каталога «/home/vtim/cpp_techno/soundMate/test
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp
+Change Dir: /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_027ec/fast"
-/usr/bin/make -f CMakeFiles/cmTC_027ec.dir/build.make CMakeFiles/cmTC_027ec.dir/build
-make[1]: вход в каталог «/home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_027ec.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_027ec.dir/feature_tests.c.o   -c /home/vtim/cpp_techno/soundMate/tests/CMakeFiles/feature_tests.c
-Linking C executable cmTC_027ec
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_027ec.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_027ec.dir/feature_tests.c.o  -o cmTC_027ec 
-make[1]: выход из каталога «/home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_3975e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3975e.dir/build.make CMakeFiles/cmTC_3975e.dir/build
+make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_3975e.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_3975e.dir/feature_tests.c.o   -c /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/feature_tests.c
+Linking C executable cmTC_3975e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3975e.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_3975e.dir/feature_tests.c.o  -o cmTC_3975e 
+make[1]: выход из каталога «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -215,30 +215,30 @@ make[1]: выход из каталога «/home/vtim/cpp_techno/soundMate/test
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp
+Change Dir: /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d1534/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d1534.dir/build.make CMakeFiles/cmTC_d1534.dir/build
-make[1]: вход в каталог «/home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp»
-Building CXX object CMakeFiles/cmTC_d1534.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_d1534.dir/testCXXCompiler.cxx.o -c /home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_d1534
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1534.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_d1534.dir/testCXXCompiler.cxx.o  -o cmTC_d1534 
-make[1]: выход из каталога «/home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_459bc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_459bc.dir/build.make CMakeFiles/cmTC_459bc.dir/build
+make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_459bc.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_459bc.dir/testCXXCompiler.cxx.o -c /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_459bc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_459bc.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_459bc.dir/testCXXCompiler.cxx.o  -o cmTC_459bc 
+make[1]: выход из каталога «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp
+Change Dir: /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_542a3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_542a3.dir/build.make CMakeFiles/cmTC_542a3.dir/build
-make[1]: вход в каталог «/home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp»
-Building CXX object CMakeFiles/cmTC_542a3.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_542a3.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_542a3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_542a3.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTC_542a3.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_542a3 
+Run Build Command:"/usr/bin/make" "cmTC_2e003/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2e003.dir/build.make CMakeFiles/cmTC_2e003.dir/build
+make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_2e003.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_2e003.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_2e003
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e003.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_2e003.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2e003 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -250,24 +250,24 @@ Thread model: posix
 gcc version 7.3.0 (Ubuntu 7.3.0-27ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_542a3' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZpuOaP.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_542a3 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_542a3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_542a3' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: выход из каталога «/home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp»
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2e003' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc08a3Rp.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2e003 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_2e003.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2e003' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: выход из каталога «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_542a3/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_542a3.dir/build.make CMakeFiles/cmTC_542a3.dir/build]
-  ignore line: [make[1]: вход в каталог «/home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp»]
-  ignore line: [Building CXX object CMakeFiles/cmTC_542a3.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_542a3.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_542a3]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_542a3.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_542a3.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_542a3 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_2e003/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_2e003.dir/build.make CMakeFiles/cmTC_2e003.dir/build]
+  ignore line: [make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»]
+  ignore line: [Building CXX object CMakeFiles/cmTC_2e003.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_2e003.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_2e003]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e003.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_2e003.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_2e003 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -279,13 +279,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.3.0 (Ubuntu 7.3.0-27ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_542a3' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZpuOaP.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_542a3 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_542a3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2e003' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc08a3Rp.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2e003 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_2e003.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccZpuOaP.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc08a3Rp.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -304,7 +304,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_542a3] ==> ignore
+    arg [cmTC_2e003] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -316,7 +316,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_542a3.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_2e003.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -342,17 +342,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp
+Change Dir: /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_313d6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_313d6.dir/build.make CMakeFiles/cmTC_313d6.dir/build
-make[1]: вход в каталог «/home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp»
-Building CXX object CMakeFiles/cmTC_313d6.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_313d6.dir/feature_tests.cxx.o -c /home/vtim/cpp_techno/soundMate/tests/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_313d6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_313d6.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_313d6.dir/feature_tests.cxx.o  -o cmTC_313d6 
-make[1]: выход из каталога «/home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_1267e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1267e.dir/build.make CMakeFiles/cmTC_1267e.dir/build
+make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_1267e.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_1267e.dir/feature_tests.cxx.o -c /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_1267e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1267e.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_1267e.dir/feature_tests.cxx.o  -o cmTC_1267e 
+make[1]: выход из каталога «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -415,17 +415,17 @@ make[1]: выход из каталога «/home/vtim/cpp_techno/soundMate/test
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp
+Change Dir: /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_43cad/fast"
-/usr/bin/make -f CMakeFiles/cmTC_43cad.dir/build.make CMakeFiles/cmTC_43cad.dir/build
-make[1]: вход в каталог «/home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp»
-Building CXX object CMakeFiles/cmTC_43cad.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_43cad.dir/feature_tests.cxx.o -c /home/vtim/cpp_techno/soundMate/tests/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_43cad
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43cad.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_43cad.dir/feature_tests.cxx.o  -o cmTC_43cad 
-make[1]: выход из каталога «/home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_d6a4f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d6a4f.dir/build.make CMakeFiles/cmTC_d6a4f.dir/build
+make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_d6a4f.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_d6a4f.dir/feature_tests.cxx.o -c /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d6a4f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6a4f.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_d6a4f.dir/feature_tests.cxx.o  -o cmTC_d6a4f 
+make[1]: выход из каталога «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -488,17 +488,17 @@ make[1]: выход из каталога «/home/vtim/cpp_techno/soundMate/test
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp
+Change Dir: /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c1479/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c1479.dir/build.make CMakeFiles/cmTC_c1479.dir/build
-make[1]: вход в каталог «/home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp»
-Building CXX object CMakeFiles/cmTC_c1479.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_c1479.dir/feature_tests.cxx.o -c /home/vtim/cpp_techno/soundMate/tests/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_c1479
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1479.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_c1479.dir/feature_tests.cxx.o  -o cmTC_c1479 
-make[1]: выход из каталога «/home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_b3d8a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b3d8a.dir/build.make CMakeFiles/cmTC_b3d8a.dir/build
+make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_b3d8a.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_b3d8a.dir/feature_tests.cxx.o -c /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b3d8a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3d8a.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_b3d8a.dir/feature_tests.cxx.o  -o cmTC_b3d8a 
+make[1]: выход из каталога «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -561,17 +561,17 @@ make[1]: выход из каталога «/home/vtim/cpp_techno/soundMate/test
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp
+Change Dir: /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_af412/fast"
-/usr/bin/make -f CMakeFiles/cmTC_af412.dir/build.make CMakeFiles/cmTC_af412.dir/build
-make[1]: вход в каталог «/home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp»
-Building CXX object CMakeFiles/cmTC_af412.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_af412.dir/feature_tests.cxx.o -c /home/vtim/cpp_techno/soundMate/tests/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_af412
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af412.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_af412.dir/feature_tests.cxx.o  -o cmTC_af412 
-make[1]: выход из каталога «/home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_c6250/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c6250.dir/build.make CMakeFiles/cmTC_c6250.dir/build
+make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_c6250.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_c6250.dir/feature_tests.cxx.o -c /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c6250
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6250.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_c6250.dir/feature_tests.cxx.o  -o cmTC_c6250 
+make[1]: выход из каталога «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -632,34 +632,34 @@ make[1]: выход из каталога «/home/vtim/cpp_techno/soundMate/test
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp
+Change Dir: /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_262aa/fast"
-/usr/bin/make -f CMakeFiles/cmTC_262aa.dir/build.make CMakeFiles/cmTC_262aa.dir/build
-make[1]: вход в каталог «/home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_262aa.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_262aa.dir/CheckIncludeFile.c.o   -c /home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_262aa
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_262aa.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_262aa.dir/CheckIncludeFile.c.o  -o cmTC_262aa 
-make[1]: выход из каталога «/home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_903c6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_903c6.dir/build.make CMakeFiles/cmTC_903c6.dir/build
+make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_903c6.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_903c6.dir/CheckIncludeFile.c.o   -c /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_903c6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_903c6.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_903c6.dir/CheckIncludeFile.c.o  -o cmTC_903c6 
+make[1]: выход из каталога «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp
+Change Dir: /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d2f54/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d2f54.dir/build.make CMakeFiles/cmTC_d2f54.dir/build
-make[1]: вход в каталог «/home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_d2f54.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_d2f54.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_d2f54
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2f54.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_d2f54.dir/CheckFunctionExists.c.o  -o cmTC_d2f54 -lpthread 
-make[1]: выход из каталога «/home/vtim/cpp_techno/soundMate/tests/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_4e15a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4e15a.dir/build.make CMakeFiles/cmTC_4e15a.dir/build
+make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_4e15a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_4e15a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4e15a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e15a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_4e15a.dir/CheckFunctionExists.c.o  -o cmTC_4e15a -lpthread 
+make[1]: выход из каталога «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
 
 
-The system is: Linux - 4.15.0-46-generic - x86_64
+The system is: Linux - 4.15.0-48-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: 
@@ -671,7 +671,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/3.10.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/3.10.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -684,33 +684,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp
+Change Dir: /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c3d24/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c3d24.dir/build.make CMakeFiles/cmTC_c3d24.dir/build
-make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_c3d24.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_c3d24.dir/testCCompiler.c.o   -c /home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_c3d24
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3d24.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_c3d24.dir/testCCompiler.c.o  -o cmTC_c3d24 
-make[1]: выход из каталога «/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_f7eab/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f7eab.dir/build.make CMakeFiles/cmTC_f7eab.dir/build
+make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_f7eab.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f7eab.dir/testCCompiler.c.o   -c /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_f7eab
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7eab.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_f7eab.dir/testCCompiler.c.o  -o cmTC_f7eab 
+make[1]: выход из каталога «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp
+Change Dir: /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5141b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5141b.dir/build.make CMakeFiles/cmTC_5141b.dir/build
-make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_5141b.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_5141b.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_5141b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5141b.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTC_5141b.dir/CMakeCCompilerABI.c.o  -o cmTC_5141b 
+Run Build Command:"/usr/bin/make" "cmTC_cdcbf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cdcbf.dir/build.make CMakeFiles/cmTC_cdcbf.dir/build
+make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_cdcbf.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_cdcbf.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_cdcbf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cdcbf.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_cdcbf.dir/CMakeCCompilerABI.c.o  -o cmTC_cdcbf 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -722,24 +722,24 @@ Thread model: posix
 gcc version 7.3.0 (Ubuntu 7.3.0-27ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5141b' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2cSOcO.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5141b /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_5141b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5141b' '-mtune=generic' '-march=x86-64'
-make[1]: выход из каталога «/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp»
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cdcbf' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUXlj8n.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_cdcbf /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_cdcbf.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cdcbf' '-mtune=generic' '-march=x86-64'
+make[1]: выход из каталога «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_5141b/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_5141b.dir/build.make CMakeFiles/cmTC_5141b.dir/build]
-  ignore line: [make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp»]
-  ignore line: [Building C object CMakeFiles/cmTC_5141b.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_5141b.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_5141b]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5141b.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_5141b.dir/CMakeCCompilerABI.c.o  -o cmTC_5141b ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_cdcbf/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_cdcbf.dir/build.make CMakeFiles/cmTC_cdcbf.dir/build]
+  ignore line: [make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»]
+  ignore line: [Building C object CMakeFiles/cmTC_cdcbf.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_cdcbf.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_cdcbf]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cdcbf.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_cdcbf.dir/CMakeCCompilerABI.c.o  -o cmTC_cdcbf ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -751,13 +751,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.3.0 (Ubuntu 7.3.0-27ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5141b' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2cSOcO.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5141b /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_5141b.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cdcbf' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUXlj8n.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_cdcbf /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_cdcbf.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc2cSOcO.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccUXlj8n.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -776,7 +776,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_5141b] ==> ignore
+    arg [cmTC_cdcbf] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -788,7 +788,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_5141b.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_cdcbf.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -818,17 +818,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp
+Change Dir: /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_15aea/fast"
-/usr/bin/make -f CMakeFiles/cmTC_15aea.dir/build.make CMakeFiles/cmTC_15aea.dir/build
-make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_15aea.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_15aea.dir/feature_tests.c.o   -c /home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/feature_tests.c
-Linking C executable cmTC_15aea
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15aea.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_15aea.dir/feature_tests.c.o  -o cmTC_15aea 
-make[1]: выход из каталога «/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_df327/fast"
+/usr/bin/make -f CMakeFiles/cmTC_df327.dir/build.make CMakeFiles/cmTC_df327.dir/build
+make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_df327.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_df327.dir/feature_tests.c.o   -c /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/feature_tests.c
+Linking C executable cmTC_df327
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df327.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_df327.dir/feature_tests.c.o  -o cmTC_df327 
+make[1]: выход из каталога «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -838,17 +838,17 @@ make[1]: выход из каталога «/home/vtim/project/SoundComradeSearc
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp
+Change Dir: /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b9ec9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b9ec9.dir/build.make CMakeFiles/cmTC_b9ec9.dir/build
-make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_b9ec9.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_b9ec9.dir/feature_tests.c.o   -c /home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/feature_tests.c
-Linking C executable cmTC_b9ec9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9ec9.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_b9ec9.dir/feature_tests.c.o  -o cmTC_b9ec9 
-make[1]: выход из каталога «/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_2fe6a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2fe6a.dir/build.make CMakeFiles/cmTC_2fe6a.dir/build
+make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_2fe6a.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_2fe6a.dir/feature_tests.c.o   -c /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/feature_tests.c
+Linking C executable cmTC_2fe6a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fe6a.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_2fe6a.dir/feature_tests.c.o  -o cmTC_2fe6a 
+make[1]: выход из каталога «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -858,17 +858,17 @@ make[1]: выход из каталога «/home/vtim/project/SoundComradeSearc
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp
+Change Dir: /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0ed1d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0ed1d.dir/build.make CMakeFiles/cmTC_0ed1d.dir/build
-make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_0ed1d.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_0ed1d.dir/feature_tests.c.o   -c /home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/feature_tests.c
-Linking C executable cmTC_0ed1d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ed1d.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_0ed1d.dir/feature_tests.c.o  -o cmTC_0ed1d 
-make[1]: выход из каталога «/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_dd05d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dd05d.dir/build.make CMakeFiles/cmTC_dd05d.dir/build
+make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_dd05d.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_dd05d.dir/feature_tests.c.o   -c /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/feature_tests.c
+Linking C executable cmTC_dd05d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd05d.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_dd05d.dir/feature_tests.c.o  -o cmTC_dd05d 
+make[1]: выход из каталога «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -876,30 +876,30 @@ make[1]: выход из каталога «/home/vtim/project/SoundComradeSearc
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp
+Change Dir: /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c96f5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c96f5.dir/build.make CMakeFiles/cmTC_c96f5.dir/build
-make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp»
-Building CXX object CMakeFiles/cmTC_c96f5.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_c96f5.dir/testCXXCompiler.cxx.o -c /home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_c96f5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c96f5.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_c96f5.dir/testCXXCompiler.cxx.o  -o cmTC_c96f5 
-make[1]: выход из каталога «/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_612cd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_612cd.dir/build.make CMakeFiles/cmTC_612cd.dir/build
+make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_612cd.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_612cd.dir/testCXXCompiler.cxx.o -c /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_612cd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_612cd.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_612cd.dir/testCXXCompiler.cxx.o  -o cmTC_612cd 
+make[1]: выход из каталога «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp
+Change Dir: /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_70a14/fast"
-/usr/bin/make -f CMakeFiles/cmTC_70a14.dir/build.make CMakeFiles/cmTC_70a14.dir/build
-make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp»
-Building CXX object CMakeFiles/cmTC_70a14.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_70a14.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_70a14
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70a14.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTC_70a14.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_70a14 
+Run Build Command:"/usr/bin/make" "cmTC_b1b4f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b1b4f.dir/build.make CMakeFiles/cmTC_b1b4f.dir/build
+make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_b1b4f.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_b1b4f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_b1b4f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1b4f.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_b1b4f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b1b4f 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -911,24 +911,24 @@ Thread model: posix
 gcc version 7.3.0 (Ubuntu 7.3.0-27ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_70a14' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccD74TVp.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_70a14 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_70a14.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_70a14' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: выход из каталога «/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp»
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b1b4f' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4GiTBq.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b1b4f /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_b1b4f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b1b4f' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: выход из каталога «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_70a14/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_70a14.dir/build.make CMakeFiles/cmTC_70a14.dir/build]
-  ignore line: [make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp»]
-  ignore line: [Building CXX object CMakeFiles/cmTC_70a14.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_70a14.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_70a14]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70a14.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_70a14.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_70a14 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b1b4f/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b1b4f.dir/build.make CMakeFiles/cmTC_b1b4f.dir/build]
+  ignore line: [make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»]
+  ignore line: [Building CXX object CMakeFiles/cmTC_b1b4f.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_b1b4f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_b1b4f]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1b4f.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_b1b4f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b1b4f ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -940,13 +940,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.3.0 (Ubuntu 7.3.0-27ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_70a14' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccD74TVp.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_70a14 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_70a14.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b1b4f' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4GiTBq.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_b1b4f /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_b1b4f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccD74TVp.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc4GiTBq.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -965,7 +965,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_70a14] ==> ignore
+    arg [cmTC_b1b4f] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -977,7 +977,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_70a14.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_b1b4f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -1003,17 +1003,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp
+Change Dir: /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_945ff/fast"
-/usr/bin/make -f CMakeFiles/cmTC_945ff.dir/build.make CMakeFiles/cmTC_945ff.dir/build
-make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp»
-Building CXX object CMakeFiles/cmTC_945ff.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_945ff.dir/feature_tests.cxx.o -c /home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_945ff
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_945ff.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_945ff.dir/feature_tests.cxx.o  -o cmTC_945ff 
-make[1]: выход из каталога «/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_69fea/fast"
+/usr/bin/make -f CMakeFiles/cmTC_69fea.dir/build.make CMakeFiles/cmTC_69fea.dir/build
+make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_69fea.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_69fea.dir/feature_tests.cxx.o -c /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_69fea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69fea.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_69fea.dir/feature_tests.cxx.o  -o cmTC_69fea 
+make[1]: выход из каталога «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -1076,17 +1076,17 @@ make[1]: выход из каталога «/home/vtim/project/SoundComradeSearc
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp
+Change Dir: /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_52560/fast"
-/usr/bin/make -f CMakeFiles/cmTC_52560.dir/build.make CMakeFiles/cmTC_52560.dir/build
-make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp»
-Building CXX object CMakeFiles/cmTC_52560.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_52560.dir/feature_tests.cxx.o -c /home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_52560
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52560.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_52560.dir/feature_tests.cxx.o  -o cmTC_52560 
-make[1]: выход из каталога «/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_d3d96/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d3d96.dir/build.make CMakeFiles/cmTC_d3d96.dir/build
+make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_d3d96.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_d3d96.dir/feature_tests.cxx.o -c /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d3d96
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3d96.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_d3d96.dir/feature_tests.cxx.o  -o cmTC_d3d96 
+make[1]: выход из каталога «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -1149,17 +1149,17 @@ make[1]: выход из каталога «/home/vtim/project/SoundComradeSearc
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp
+Change Dir: /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8c670/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8c670.dir/build.make CMakeFiles/cmTC_8c670.dir/build
-make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp»
-Building CXX object CMakeFiles/cmTC_8c670.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_8c670.dir/feature_tests.cxx.o -c /home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_8c670
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c670.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_8c670.dir/feature_tests.cxx.o  -o cmTC_8c670 
-make[1]: выход из каталога «/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_a6cfd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a6cfd.dir/build.make CMakeFiles/cmTC_a6cfd.dir/build
+make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_a6cfd.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_a6cfd.dir/feature_tests.cxx.o -c /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_a6cfd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6cfd.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_a6cfd.dir/feature_tests.cxx.o  -o cmTC_a6cfd 
+make[1]: выход из каталога «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -1222,17 +1222,17 @@ make[1]: выход из каталога «/home/vtim/project/SoundComradeSearc
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp
+Change Dir: /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_81cd0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_81cd0.dir/build.make CMakeFiles/cmTC_81cd0.dir/build
-make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp»
-Building CXX object CMakeFiles/cmTC_81cd0.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_81cd0.dir/feature_tests.cxx.o -c /home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_81cd0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81cd0.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_81cd0.dir/feature_tests.cxx.o  -o cmTC_81cd0 
-make[1]: выход из каталога «/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_ccfe0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ccfe0.dir/build.make CMakeFiles/cmTC_ccfe0.dir/build
+make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_ccfe0.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_ccfe0.dir/feature_tests.cxx.o -c /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ccfe0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccfe0.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_ccfe0.dir/feature_tests.cxx.o  -o cmTC_ccfe0 
+make[1]: выход из каталога «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -1293,30 +1293,30 @@ make[1]: выход из каталога «/home/vtim/project/SoundComradeSearc
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp
+Change Dir: /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_301b9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_301b9.dir/build.make CMakeFiles/cmTC_301b9.dir/build
-make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_301b9.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_301b9.dir/CheckIncludeFile.c.o   -c /home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_301b9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_301b9.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_301b9.dir/CheckIncludeFile.c.o  -o cmTC_301b9 
-make[1]: выход из каталога «/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_d32dc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d32dc.dir/build.make CMakeFiles/cmTC_d32dc.dir/build
+make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_d32dc.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d32dc.dir/CheckIncludeFile.c.o   -c /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d32dc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d32dc.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_d32dc.dir/CheckIncludeFile.c.o  -o cmTC_d32dc 
+make[1]: выход из каталога «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp
+Change Dir: /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bfba3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bfba3.dir/build.make CMakeFiles/cmTC_bfba3.dir/build
-make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_bfba3.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_bfba3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_bfba3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bfba3.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_bfba3.dir/CheckFunctionExists.c.o  -o cmTC_bfba3 -lpthread 
-make[1]: выход из каталога «/home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/CMakeTmp»
+Run Build Command:"/usr/bin/make" "cmTC_2d233/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2d233.dir/build.make CMakeFiles/cmTC_2d233.dir/build
+make[1]: вход в каталог «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_2d233.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_2d233.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2d233
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d233.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_2d233.dir/CheckFunctionExists.c.o  -o cmTC_2d233 -lpthread 
+make[1]: выход из каталога «/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/CMakeTmp»
 
 

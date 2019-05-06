@@ -1,18 +1,16 @@
 #ifndef CALCULATOR_HPP
 #define CALCULATOR_HPP
 
-#include <utility>
-#include <vector>
-#include <string>
-#include <map>
 
-typedef std::pair<std::string, std::vector<std::string>> UserCategoryRequest;
-typedef std::vector<std::pair<int, std::vector<std::string>>>CategoryQuary;
+#include <response_from_db.hpp>
+#include <category.hpp>
 
+template <class UserContainer>
 class AbstractProcessor {
 public:
-    void ProceedCategoryQuary(const UserCategoryRequest &,
-        const CategoryQuary &, std::map<int, int> &);
+    virtual void ProceedCategoryQuery(const Category &,
+        const std::vector<UserData> &, UserContainer &) = 0;
+    virtual ~AbstractProcessor() {};
 };
 
 #endif

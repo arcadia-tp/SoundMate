@@ -2,15 +2,15 @@
 #define PARSER_HPP
 
 #include <string>
-#include <vector>
-#include <utility>
 
+#include <category.hpp>
 
 class AbstractParser {
  public:
-    virtual std::vector<std::pair<std::string, std::vector<std::string>>>
-    Parse(const char *string, size_t size);
+    virtual ClientQuery Parse(const std::string &string) = 0;
+    virtual ~AbstractParser() {};
 };
 
+// AbstractParser::~AbstractParser() {}
 
 #endif

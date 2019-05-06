@@ -1,23 +1,31 @@
 #ifndef CLIENT_CONNECTION_HPP
 #define CLIENT_CONNECTION_HPP
 
-#include <boost/asio/ip/tcp.hpp>
 #include <cl_parser.hpp>
-#include <boost/enable_shared_from_this.hpp>
+#include <memory>
+#include <abs_connection.hpp>
+#include <boost/asio.hpp>
 
-class ClientConnection : public boost::enable_shared_from_this<ClientConnection> {
-    int user_id_;
-    boost::asio::ip::tcp::socket sock_;
-    int already_read_;
-    char *message_buffer_;
-    AbstractParser *parser_;
+template <class Socket, class Request>
+class ClientConnectionImpl;
 
- public:
-    ClientConnection(int user_id, boost::asio::io_service &service, AbstractParser *parser); //params
-    void AnswerToClient();
-    void StopConnection();
-    void ReadRequest();
-    void ProcessRequest();
+enum {READING, READY_TO_PROCESS, OVER, READY_FOR_CLIENT, WAITING};
+
+template <class Socket, class Request>
+class ClientConnection : public AbstractConnection<Socket, Request> {
+  public:
+    ClientConnection(boost::asio::io_service &service); //params
+    void AnswerToClient() override;
+    void StopConnection() override;
+    void ReadRequest() override;
+    void ProcessConnection() override;
+    Socket &Sock() override;
+    int GetState() override;
+    int GetConnectionID() override;
+    Request Parse() override;
+    ~ClientConnection();
+  private:
+    ClientConnectionImpl<Socket, Request> *implementor_;
 };
 
 #endif

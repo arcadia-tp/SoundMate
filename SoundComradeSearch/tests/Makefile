@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vtim/project/SoundComradeSearch/SoundMate/tests
+CMAKE_SOURCE_DIR = /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vtim/project/SoundComradeSearch/SoundMate/tests
+CMAKE_BINARY_DIR = /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles /home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vtim/project/SoundComradeSearch/SoundMate/tests/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,113 +123,86 @@ tests/fast:
 	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
 .PHONY : tests/fast
 
-home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.o: home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.cpp.o
+home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.o: home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.cpp.o
 
-.PHONY : home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.o
-
-# target to build an object file
-home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.cpp.o:
-	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.cpp.o
-.PHONY : home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.cpp.o
-
-home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.i: home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.cpp.i
-
-.PHONY : home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.i
-
-# target to preprocess a source file
-home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.cpp.i:
-	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.cpp.i
-.PHONY : home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.cpp.i
-
-home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.s: home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.cpp.s
-
-.PHONY : home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.s
-
-# target to generate assembly for a file
-home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.cpp.s:
-	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.cpp.s
-.PHONY : home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.cpp.s
-
-home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.o: home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.cpp.o
-
-.PHONY : home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.o
+.PHONY : home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.o
 
 # target to build an object file
-home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.cpp.o:
-	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.cpp.o
-.PHONY : home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.cpp.o
+home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.cpp.o:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.cpp.o
+.PHONY : home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.cpp.o
 
-home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.i: home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.cpp.i
+home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.i: home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.cpp.i
 
-.PHONY : home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.i
+.PHONY : home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.i
 
 # target to preprocess a source file
-home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.cpp.i:
-	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.cpp.i
-.PHONY : home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.cpp.i
+home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.cpp.i:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.cpp.i
+.PHONY : home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.cpp.i
 
-home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.s: home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.cpp.s
+home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.s: home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.cpp.s
 
-.PHONY : home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.s
+.PHONY : home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.s
 
 # target to generate assembly for a file
-home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.cpp.s:
-	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.cpp.s
-.PHONY : home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.cpp.s
+home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.cpp.s:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.cpp.s
+.PHONY : home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.cpp.s
 
-home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.o: home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.cpp.o
+home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.o: home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.cpp.o
 
-.PHONY : home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.o
+.PHONY : home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.o
 
 # target to build an object file
-home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.cpp.o:
-	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.cpp.o
-.PHONY : home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.cpp.o
+home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.cpp.o:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.cpp.o
+.PHONY : home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.cpp.o
 
-home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.i: home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.cpp.i
+home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.i: home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.cpp.i
 
-.PHONY : home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.i
+.PHONY : home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.i
 
 # target to preprocess a source file
-home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.cpp.i:
-	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.cpp.i
-.PHONY : home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.cpp.i
+home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.cpp.i:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.cpp.i
+.PHONY : home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.cpp.i
 
-home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.s: home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.cpp.s
+home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.s: home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.cpp.s
 
-.PHONY : home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.s
+.PHONY : home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.s
 
 # target to generate assembly for a file
-home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.cpp.s:
-	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.cpp.s
-.PHONY : home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.cpp.s
+home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.cpp.s:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.cpp.s
+.PHONY : home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.cpp.s
 
-home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.o: home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.cpp.o
+home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.o: home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.cpp.o
 
-.PHONY : home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.o
+.PHONY : home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.o
 
 # target to build an object file
-home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.cpp.o:
-	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.cpp.o
-.PHONY : home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.cpp.o
+home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.cpp.o:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.cpp.o
+.PHONY : home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.cpp.o
 
-home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.i: home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.cpp.i
+home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.i: home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.cpp.i
 
-.PHONY : home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.i
+.PHONY : home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.i
 
 # target to preprocess a source file
-home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.cpp.i:
-	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.cpp.i
-.PHONY : home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.cpp.i
+home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.cpp.i:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.cpp.i
+.PHONY : home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.cpp.i
 
-home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.s: home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.cpp.s
+home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.s: home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.cpp.s
 
-.PHONY : home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.s
+.PHONY : home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.s
 
 # target to generate assembly for a file
-home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.cpp.s:
-	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.cpp.s
-.PHONY : home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.cpp.s
+home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.cpp.s:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.cpp.s
+.PHONY : home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.cpp.s
 
 src/test_cl_parser.o: src/test_cl_parser.cpp.o
 
@@ -258,59 +231,32 @@ src/test_cl_parser.cpp.s:
 	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/test_cl_parser.cpp.s
 .PHONY : src/test_cl_parser.cpp.s
 
-src/test_client_connection.o: src/test_client_connection.cpp.o
+src/test_db_parser.o: src/test_db_parser.cpp.o
 
-.PHONY : src/test_client_connection.o
-
-# target to build an object file
-src/test_client_connection.cpp.o:
-	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/test_client_connection.cpp.o
-.PHONY : src/test_client_connection.cpp.o
-
-src/test_client_connection.i: src/test_client_connection.cpp.i
-
-.PHONY : src/test_client_connection.i
-
-# target to preprocess a source file
-src/test_client_connection.cpp.i:
-	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/test_client_connection.cpp.i
-.PHONY : src/test_client_connection.cpp.i
-
-src/test_client_connection.s: src/test_client_connection.cpp.s
-
-.PHONY : src/test_client_connection.s
-
-# target to generate assembly for a file
-src/test_client_connection.cpp.s:
-	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/test_client_connection.cpp.s
-.PHONY : src/test_client_connection.cpp.s
-
-src/test_data_base_query.o: src/test_data_base_query.cpp.o
-
-.PHONY : src/test_data_base_query.o
+.PHONY : src/test_db_parser.o
 
 # target to build an object file
-src/test_data_base_query.cpp.o:
-	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/test_data_base_query.cpp.o
-.PHONY : src/test_data_base_query.cpp.o
+src/test_db_parser.cpp.o:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/test_db_parser.cpp.o
+.PHONY : src/test_db_parser.cpp.o
 
-src/test_data_base_query.i: src/test_data_base_query.cpp.i
+src/test_db_parser.i: src/test_db_parser.cpp.i
 
-.PHONY : src/test_data_base_query.i
+.PHONY : src/test_db_parser.i
 
 # target to preprocess a source file
-src/test_data_base_query.cpp.i:
-	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/test_data_base_query.cpp.i
-.PHONY : src/test_data_base_query.cpp.i
+src/test_db_parser.cpp.i:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/test_db_parser.cpp.i
+.PHONY : src/test_db_parser.cpp.i
 
-src/test_data_base_query.s: src/test_data_base_query.cpp.s
+src/test_db_parser.s: src/test_db_parser.cpp.s
 
-.PHONY : src/test_data_base_query.s
+.PHONY : src/test_db_parser.s
 
 # target to generate assembly for a file
-src/test_data_base_query.cpp.s:
-	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/test_data_base_query.cpp.s
-.PHONY : src/test_data_base_query.cpp.s
+src/test_db_parser.cpp.s:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/src/test_db_parser.cpp.s
+.PHONY : src/test_db_parser.cpp.s
 
 src/test_query_processor.o: src/test_query_processor.cpp.o
 
@@ -375,27 +321,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... tests"
 	@echo "... edit_cache"
-	@echo "... home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.o"
-	@echo "... home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.i"
-	@echo "... home/vtim/project/SoundComradeSearch/SoundMate/src/cl_parser.s"
-	@echo "... home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.o"
-	@echo "... home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.i"
-	@echo "... home/vtim/project/SoundComradeSearch/SoundMate/src/client_connection.s"
-	@echo "... home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.o"
-	@echo "... home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.i"
-	@echo "... home/vtim/project/SoundComradeSearch/SoundMate/src/data_base_query.s"
-	@echo "... home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.o"
-	@echo "... home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.i"
-	@echo "... home/vtim/project/SoundComradeSearch/SoundMate/src/query_processor.s"
+	@echo "... home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.o"
+	@echo "... home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.i"
+	@echo "... home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.s"
+	@echo "... home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.o"
+	@echo "... home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.i"
+	@echo "... home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.s"
+	@echo "... home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.o"
+	@echo "... home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.i"
+	@echo "... home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.s"
 	@echo "... src/test_cl_parser.o"
 	@echo "... src/test_cl_parser.i"
 	@echo "... src/test_cl_parser.s"
-	@echo "... src/test_client_connection.o"
-	@echo "... src/test_client_connection.i"
-	@echo "... src/test_client_connection.s"
-	@echo "... src/test_data_base_query.o"
-	@echo "... src/test_data_base_query.i"
-	@echo "... src/test_data_base_query.s"
+	@echo "... src/test_db_parser.o"
+	@echo "... src/test_db_parser.i"
+	@echo "... src/test_db_parser.s"
 	@echo "... src/test_query_processor.o"
 	@echo "... src/test_query_processor.i"
 	@echo "... src/test_query_processor.s"
