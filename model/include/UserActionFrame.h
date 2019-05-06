@@ -5,17 +5,19 @@
 #include <cstring>
 #include <map>
 
-#include "DataBaseFrame.h"
+#include "DataBasePerson.h"
 
 class UserAction {
 public:
+    UserData* getUser(int id_user);
+    void printUser(UserData *user);
     UserData* createUser();
-    void changeMusicInstrument(UserData *User);
-    void changeMusicGenre(UserData *User);
-    void changeContactData(UserData *User);
-    void createMessage(UserData *User1, UserData *User2);
-    void login();
-    void logout();
+    void changeInfo(UserData *user);
+    void changeName(UserData *user);
+    void changeSurname(UserData *user);
+    void changeInformation(UserData *user);
+    void changeAvatar(UserData *user);
+    void changeContactData(UserData *user);
 };
 
 #endif // USERACTIONFRAME_H_

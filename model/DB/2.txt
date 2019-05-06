@@ -1,0 +1,13 @@
+id: 2
+login: bbb
+password: bbb222
+name: Bob
+surname: Bonly
+birthdate: 12.03.1998
+info: Interesting thing.
+avatar: D:\\bo.png
+vk bo_good.com
+mail bo@mail.ru
+number 81963804390
+music: i_drums i_flute i_piano g_classic g_techno
+friends: -
