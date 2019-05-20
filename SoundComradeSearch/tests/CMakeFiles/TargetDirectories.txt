@@ -1,3 +1,0 @@
-/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/rebuild_cache.dir
-/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/tests.dir
-/home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/tests/CMakeFiles/edit_cache.dir
