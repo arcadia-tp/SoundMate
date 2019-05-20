@@ -14,6 +14,4 @@ public:
     virtual ~AbsDBParser() {}
 };
 
-// AbsDBParser::~AbsDBParser() {};
-
 #endif

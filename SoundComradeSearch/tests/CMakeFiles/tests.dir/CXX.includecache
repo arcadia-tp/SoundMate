@@ -63,19 +63,19 @@ category.hpp
 -
 
 /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/cl_parser.cpp
-cl_parser.hpp
--
 algorithm
 -
 iostream
+-
+cl_parser.hpp
 -
 
 /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/db_parser.cpp
-db_parser.hpp
--
 algorithm
 -
 iostream
+-
+db_parser.hpp
 -
 
 /home/vtim/project/SoundComradeSearch/proj/SoundMate/SoundComradeSearch/src/query_processor.cpp

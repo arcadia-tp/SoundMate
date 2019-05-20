@@ -1,7 +1,6 @@
 #include <algorithm>
 #include <iostream>
 
-#include <strip_string.hpp>
 #include <cl_parser.hpp>
 
 

@@ -1,7 +1,6 @@
 #include <algorithm>
 #include <iostream>
 
-#include <strip_string.hpp>
 #include <db_parser.hpp>
 
 const std::string kID = "id:";
@@ -24,7 +23,7 @@ class DBParser : public AbsDBParser {
         id_string.clear();
         std::string key_word;
         std::string substring;
-        while(true) {
+        while(true) { /// delete while true 
             if (end == -1) break;
             UserData user_data_object;
             begin = end + 1;

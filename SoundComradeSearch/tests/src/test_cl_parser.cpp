@@ -8,7 +8,6 @@ using ::testing::_;
 
 using std::pair, std::string, std::vector, std::make_pair;
 
-std::string *parse(std::string &string);
 
 TEST(ClientRequestParser, ValidStrings) {
     AbstractParser *parser = new ClientParser();
@@ -34,10 +33,4 @@ TEST(ClientRequestParser, ValidStrings) {
 
     EXPECT_EQ("genre", query.request[1].category_name);
     EXPECT_EQ("folk", query.request[1].key_words[0]);
-}
-
-void StripString(std::string &mystr) {
-    size_t index = 0;
-    while((index = mystr.find(' '))!=std::string::npos)
-        mystr.erase(index, 1);
 }

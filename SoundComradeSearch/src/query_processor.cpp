@@ -12,7 +12,7 @@ class QueryProcessor : public AbstractProcessor<UsersMap> {
       auto current_user = users_map.find(user.user_id);
       for (auto key_word : category.key_words) {
         for (auto j : user.data_vector) {
-          if (key_word == j) {
+          if (key_word == j) { //count if
             current_user->second++;
             break;
           }

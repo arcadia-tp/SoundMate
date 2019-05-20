@@ -25,7 +25,7 @@ typedef std::shared_ptr<MapRequest> RequestPtr;
 typedef std::vector<ClientPtr> ClientsArray;
 typedef std::vector<RequestPtr> RequestArray;
 
-
+//use git rm
 
 class ServerImpl{
  public:

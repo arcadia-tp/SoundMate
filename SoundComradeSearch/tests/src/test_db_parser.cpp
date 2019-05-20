@@ -38,7 +38,7 @@ TEST(DataBaseParserTest, Args) {
     EXPECT_EQ("cello", response.response_vector[2].data_vector[1]);
     EXPECT_EQ("drum", response.response_vector[2].data_vector[2]);
 
-    std::string str3("id: 322 | 9 pop  jazz rap | 10000 rock reggae pop | 29  blues  ");
+    std::string str3("id: 322 | 9 pop jazzcd rap | 10000 rock reggae pop | 29  blues  ");
 
     response = parser->Parse(str3);
     EXPECT_EQ(322, response.request_owner_id);
