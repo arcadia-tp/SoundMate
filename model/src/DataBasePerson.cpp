@@ -3,195 +3,197 @@
 #include <boost/lexical_cast.hpp>
 
 
-// Class PrivateData **********************
+// Класс PrivateData **********************
 
 PrivateData::PrivateData(){}
 PrivateData::~PrivateData(){}
 
 void PrivateData::setId(int id_value){
-    id = id_value;
+    id_ = id_value;
 }
 
 void PrivateData::setLogin(std::string login_value){
-    login = login_value;
+    login_ = login_value;
 }
 
 void PrivateData::setPassword(std::string password_value){
-    password = password_value;
+    password_ = password_value;
 }
 
 int PrivateData::getID(){
-    return id;
+    return id_;
 }
 
 std::string PrivateData::getLogin(){
-    return login;
+    return login_;
 }
 
 std::string PrivateData::getPassword(){
-    return password;
+    return password_;
 }
 
-// Class PersonalData *********************
+// Класс PersonalData *********************
 
 PersonalData::PersonalData(){}
 PersonalData::~PersonalData(){}
 
 void PersonalData::setNameSurname(std::string name_value, std::string surname_value){
-    name = name_value;
-    surname = surname_value;
+    name_ = name_value;
+    surname_ = surname_value;
 }
 
 void PersonalData::setBirthDate(std::string date){
-    birth_date = date;
+    birth_date_ = date;
 }
 
 void PersonalData::setPersonalInfo(std::string info){
-    personal_information = info;
+    personal_information_ = info;
 }
 
 std::string PersonalData::getName(){
-    return name;
+    return name_;
 }
 
 std::string PersonalData::getSurname() {
-    return surname;
+    return surname_;
 }
 
 std::string PersonalData::getBirthDate(){
-    return birth_date;
+    return birth_date_;
 }
 
 std::string PersonalData::getPersonalInfo(){
-    return personal_information;
+    return personal_information_;
 }
 
-// Class CommunicationData ****************
+// Класс CommunicationData ****************
 
 CommunicationData::CommunicationData(){}
 CommunicationData::~CommunicationData(){}
 
 void CommunicationData::setCommunicationData(std::string app, std::string path){
-    communication_list[app] = path;
+    communication_list_[app] = path;
 }
 
 std::string CommunicationData::getCommunicationData(std::string app){
     std::map <std::string, std::string>:: iterator it;
     std::string path;
 
-    it = communication_list.find(app);
-    if (it != communication_list.end())
+    it = communication_list_.find(app);
+    if (it != communication_list_.end())
         path = it->second;
     else return NULL;
     return path;
 }
 
-// Class PersonalMusic ********************
+// Класс PersonalMusic ********************
 
 PersonalMusic::PersonalMusic(){}
 PersonalMusic::~PersonalMusic(){}
 
 void PersonalMusic::setMusicalInstruments(std::string instrument){
-    musical_instruments.insert(instrument);
+    musical_instruments_.insert(instrument);
 }
 
 void PersonalMusic::setMusicalGenres(std::string genre){
-    musical_genres.insert(genre);
+    musical_genres_.insert(genre);
 }
 
 std::string PersonalMusic::forFileInstr() {
     std::string str;
     
-    if (musical_instruments.size() == 0) return " i_-";
+    if (musical_instruments_.size() == 0) return " -";
 
     std::set<std::string>::iterator it;
-    for (it = musical_instruments.begin(); it != musical_instruments.end(); it++) {
-        str += " i_" + *it;
+    for (it = musical_instruments_.begin(); it != musical_instruments_.end(); it++) {
+        str += " " + *it;
     }
     return str;
+
+    //if(musical_instruments.size)
 }
 
 std::string PersonalMusic::forFileGenre() {
     std::string str;
 
-    if (musical_genres.size() == 0) return " g_-";
+    if (musical_genres_.size() == 0) return " -";
 
     std::set<std::string>::iterator it;
-    for (it = musical_genres.begin(); it != musical_genres.end(); it++) {
-        str += " g_" + *it;
+    for (it = musical_genres_.begin(); it != musical_genres_.end(); it++) {
+        str += " " + *it;
     }
     return str;
 }
 
 std::set<std::string> PersonalMusic::getMusicalInstruments(){
-    return musical_instruments;
+    return musical_instruments_;
 }
 
 std::set<std::string> PersonalMusic::getMusicalGenres(){
-    return musical_genres;
+    return musical_genres_;
 }
 
-// Class DropdownList *********************
+// Класс DropdownList *********************
 
 DropdownList::DropdownList(){
-    musical_instrument = { "guitar","piano","violin","drums","flute" };
-    musical_genre = { "jazz","classic", "techno" };
+    musical_instrument_ = { "guitar","piano","violin","drums","flute" };
+    musical_genre_ = { "jazz","classic", "techno" };
 }
 DropdownList::~DropdownList(){}
 
 int DropdownList::getCountInstr() {
-    return musical_instrument.size();
+    return musical_instrument_.size();
 }
 
 int DropdownList::getCountGenre() {
-    return musical_genre.size();
+    return musical_genre_.size();
 }
 
 std::string DropdownList::getMusicalInstrument(int id){
-    return musical_instrument[id];
+    return musical_instrument_[id];
 }
 
 std::string DropdownList::getMusicalGenre(int id){
-    return musical_genre[id];
+    return musical_genre_[id];
 }
 
-// Class PersonalMedia ********************
+// Класс PersonalMedia ********************
 
 PersonalMedia::PersonalMedia(){}
 PersonalMedia::~PersonalMedia(){}
 
 void PersonalMedia::setAvatarPhoto(std::string avatar){
-    avatar_photo = avatar;
+    avatar_photo_ = avatar;
 }
 std::string PersonalMedia::getAvatarPhoto(){
-    return avatar_photo;
+    return avatar_photo_;
 }
 
 
-// Class Friends **************************
+// Класс Friends **************************
 
 Friends::Friends(){}
 Friends::~Friends(){}
 
 void Friends::setFriend(std::string id){
     int id_ = boost::lexical_cast<int> (id);
-    friends_id.push_back(id_);
+    friends_id_.push_back(id_);
 }
 
 std::string Friends::getFriends() {
     std::string str = "";
 
-    if (friends_id.size() == 0)
+    if (friends_id_.size() == 0)
         return "-";
     else {
-        for (int i = 0; i < friends_id.size() - 1; i++)
-            str += boost::lexical_cast<std::string>(friends_id[i]) + ' ';
-        str += boost::lexical_cast<std::string>(friends_id[friends_id.size() - 1]);
+        for (int i = 0; i < friends_id_.size() - 1; i++)
+            str += boost::lexical_cast<std::string>(friends_id_[i]) + ' ';
+        str += boost::lexical_cast<std::string>(friends_id_[friends_id_.size() - 1]);
     }
     return str;
 }
 
-// Class UserData *************************
+// Класс UserData *************************
 
 UserData::UserData(){}
 UserData::~UserData(){}

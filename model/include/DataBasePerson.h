@@ -9,10 +9,6 @@
 
 
 class PrivateData {
-private:
-    int id;
-    std::string login;
-    std::string password;
 public:
     PrivateData();
     ~PrivateData();
@@ -23,14 +19,13 @@ public:
     int getID();
     std::string getLogin();
     std::string getPassword();
+private:
+    int id_;
+    std::string login_;
+    std::string password_;
 };
 
 class PersonalData {
-private:
-    std::string name;
-    std::string surname;
-    std::string birth_date;
-    std::string personal_information;
 public:
     PersonalData();
     ~PersonalData();
@@ -42,23 +37,25 @@ public:
     std::string getSurname();
     std::string getBirthDate();
     std::string getPersonalInfo();
+private:
+    std::string name_;
+    std::string surname_;
+    std::string birth_date_;
+    std::string personal_information_;
 };
 
 class CommunicationData {
-private:
-    std::map<std::string, std::string> communication_list;
 public:
     CommunicationData();
     ~CommunicationData();
 
     void setCommunicationData(std::string app, std::string path);
     std::string getCommunicationData(std::string app);
+private:
+    std::map<std::string, std::string> communication_list_;
 };
 
 class DropdownList {
-private:
-    std::vector<std::string> musical_instrument;
-    std::vector<std::string> musical_genre;
 public:
     DropdownList();
     ~DropdownList();
@@ -67,12 +64,12 @@ public:
     std::string getMusicalGenre(int id);
     int getCountInstr();
     int getCountGenre();
+private:
+    std::vector<std::string> musical_instrument_;
+    std::vector<std::string> musical_genre_;
 };
 
 class PersonalMusic {
-private:
-    std::set<std::string> musical_instruments;
-    std::set<std::string> musical_genres;
 public:
     PersonalMusic();
     ~PersonalMusic();
@@ -83,37 +80,40 @@ public:
     std::string forFileGenre();
     std::set<std::string> getMusicalInstruments();
     std::set<std::string> getMusicalGenres();
+private:
+    std::set<std::string> musical_instruments_;
+    std::set<std::string> musical_genres_;
 };
 
 class PersonalMedia {
-private:
-    std::string avatar_photo;
 public:
     PersonalMedia();
     ~PersonalMedia();
 
     void setAvatarPhoto(std::string avatar);
     std::string getAvatarPhoto();
+private:
+    std::string avatar_photo_;
 };
 
 class Friends {
-private:
-    std::vector<int> friends_id;
 public:
     Friends();
     ~Friends();
 
     void setFriend(std::string id);
     std::string getFriends();
+private:
+    std::vector<int> friends_id_;
 };
 
 class UserData :public PrivateData {
 public:
-    PersonalData personal_data;
-    PersonalMusic personal_music;
-    CommunicationData contact_data;
-    PersonalMedia personal_media;
-    Friends friends;
+    PersonalData personal_data_;
+    PersonalMusic personal_music_;
+    CommunicationData contact_data_;
+    PersonalMedia personal_media_;
+    Friends friends_;
     //std::vector<Chat> chat_list;
 
     UserData();

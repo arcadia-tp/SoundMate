@@ -1,0 +1,13 @@
+id: 4
+login: fff
+password: pasfff
+name: Go
+surname: Pikachu
+birthdate: 21.03.2018
+info: Something strange.
+avatar: C:\\d.png
+vk picka.com
+mail pi@mail.ru
+number -
+music: flute | techno
+friends: -

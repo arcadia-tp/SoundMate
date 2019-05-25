@@ -1,3 +1,5 @@
-2
-1 aaa aaa111 i_guitar i_piano g_jazz
-2 bbb bbb222 i_drums i_flute i_piano g_classic g_techno
+4
+1 aaa pasaa | guitar piano | jazz
+2 bbb pasbbb | - | classic jazz
+3 ccc pasccc | drums guitar | classic jazz
+4 fff pasfff | flute | techno

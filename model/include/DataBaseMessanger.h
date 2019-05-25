@@ -6,45 +6,48 @@
 #include <map>
 
 class Message {
-protected:
-    int id;
-    std::string date_creating;
 public:
     virtual int getId() = 0;
     virtual std::string getContent() = 0;
+protected:
+    int id_;
+    std::string date_creating_;
+
 };
 
 class TextMessage :public Message {
-private:
-    std::string text_content;
 public:
     TextMessage();
-    TextMessage(int id_, std::string content, std::string date);
+    TextMessage(int id, std::string content, std::string date);
     ~TextMessage();
 
     int getId() override;
     std::string getContent() override;
+private:
+    std::string text_content_;
+
 };
 
 class PictureMessage :public Message {
-private:
-    std::string picture_content;
 public:
     PictureMessage();
-    PictureMessage(int id_, std::string content, std::string date);
+    PictureMessage(int id, std::string content, std::string date);
     ~PictureMessage();
 
     int getId() override;
     std::string getContent() override;
+private:
+    std::string picture_content_;
+
 };
 
 class Chat {
 private:
-    int chat_id;
-    std::string name;
-    std::vector<int> user_list;
-    std::vector<TextMessage> chat_t_massages;
-    std::vector<PictureMessage> chat_p_massages;
+    int chat_id_;
+    std::string name_;
+    std::vector<int> user_list_;
+    std::vector<TextMessage> chat_t_massages_;
+    std::vector<PictureMessage> chat_p_massages_;
 public:
     Chat();
     ~Chat();
