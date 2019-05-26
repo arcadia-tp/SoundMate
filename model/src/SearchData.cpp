@@ -8,6 +8,17 @@
 
 #define DEVISION 2
 
+const std::string DirectoryPath = "DB\\";
+const std::string PersonFile = "person.txt";
+
+std::string GetType(std::string str) {
+    std::istringstream in(str);
+    std::string substr;
+    in >> substr >> substr >> substr >> substr;
+    substr.erase(substr.end() - 1);
+    return substr;
+}
+
 std::vector<std::string> Parser(std::string str) {
     std::vector<std::string> return_vector;
     std::istringstream in(str);
@@ -53,7 +64,7 @@ std::vector<std::string> GetGenresFromStr(std::string str) {
     return return_vector;
 }
 
-std::string GetIdFromSearch(std::string str_search, std::string type_search) {
+std::string GetIdFromSearch(std::string str_search) {
     std::string str, return_str = "";
 
     std::istringstream in(str_search);
@@ -64,10 +75,10 @@ std::string GetIdFromSearch(std::string str_search, std::string type_search) {
     return_str += substr;
 
 
-    std::string filename = "DB\\", f;
+    std::string filename = DirectoryPath, f;
 
     std::ifstream F_PERSON;
-    f = filename + "person.txt";
+    f = filename + PersonFile;
     F_PERSON.open(f);
 
     if (!F_PERSON.is_open()) {
@@ -83,6 +94,7 @@ std::string GetIdFromSearch(std::string str_search, std::string type_search) {
     }
 
     std::vector<std::string> search_instr = Parser(str_search);
+    std::string type_search = GetType(str_search);
 
     while (!F_PERSON.eof()) {
         std::getline(F_PERSON, str);
@@ -91,10 +103,10 @@ std::string GetIdFromSearch(std::string str_search, std::string type_search) {
         std::istringstream(str) >> str_id;
         std::vector<std::string> file_data;
 
-        if (type_search == "instruments") {
+        if (type_search == "instrument") {
            file_data = GetInstrumentsFromStr(str);
         }
-        else if (type_search == "genres") {
+        else if (type_search == "genre") {
             file_data = GetGenresFromStr(str);
         }
 

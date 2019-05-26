@@ -7,6 +7,7 @@
 std::vector<std::string> Parser(std::string str);
 std::vector<std::string> GetInstrumentsFromStr(std::string str);
 std::vector<std::string> GetGenresFromStr(std::string str);
-std::string GetIdFromSearch(std::string str_search, std::string type_search);
+std::string GetIdFromSearch(std::string str_search);
+std::string GetType(std::string str);
 
 #endif // SEARCHDATA_H_

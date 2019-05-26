@@ -49,13 +49,13 @@ int main() {
         case GET_ID_INSTR:
             //std::cin >> str_search;
             str_search = "id: 1 | instrument: guitar violin";
-            std::cout << GetIdFromSearch(str_search, "instruments");
+            std::cout << GetIdFromSearch(str_search);
             break;
 
         case GET_ID_GENRE:
             //std::cin >> str_search;
             str_search = "id: 1 | genre: techno jazz";
-            std::cout << GetIdFromSearch(str_search, "genres");
+            std::cout << GetIdFromSearch(str_search);
             break;
 
         default:

@@ -12,6 +12,10 @@
 #define MEDIA 3
 enum ChangeSMTH{EXIT, CHANGE_NAME, CHANGE_SURNAME, CHANGE_INFO, CHANGE_AVATAR, CHANGE_CONTACTS}do_change;
 
+const std::string DirectoryPath = "DB\\";
+const std::string PersonFile = "person.txt";
+const std::string FileExtension = ".txt";
+
 std::string DeleteTheUnderScore(std::string str);
 void CreateData(UserData *user, std::set<std::string> logins);
 void CreateAnotherData(UserData *user);
@@ -24,11 +28,11 @@ void WriteToFile(std::string filename, UserData *user);
 
 UserData* UserAction::getUser(int id_user){
     std::string str;
-    std::string filename = "DB\\",f;
+    std::string filename = DirectoryPath,f;
     int users_num = 0;
 
     std::ifstream F_PERSON;
-    f = filename + "person.txt";
+    f = filename + PersonFile;
     F_PERSON.open(f);
 
     if (!F_PERSON.is_open()) {
@@ -57,7 +61,7 @@ UserData* UserAction::getUser(int id_user){
     F_PERSON.close();
 
     std::ifstream F_TAKEDATA;
-    f = filename + boost::lexical_cast<std::string> (id_user) + ".txt";
+    f = filename + boost::lexical_cast<std::string> (id_user) + FileExtension;
     F_TAKEDATA.open(f);
 
     if (!F_TAKEDATA.is_open()) {
@@ -95,7 +99,7 @@ void UserAction::printUser(UserData *user){
 
 UserData* UserAction::createUser(){
     std::string str;
-    std::string filename = "DB\\", f;
+    std::string filename = DirectoryPath, f;
     int users_num = 0;
 
     std::vector<std::string> data;
@@ -103,7 +107,7 @@ UserData* UserAction::createUser(){
     UserData* user = new UserData;
 
     std::ifstream F_PERSON;
-    f = filename + "person.txt";
+    f = filename + PersonFile;
     F_PERSON.open(f);
 
     if (!F_PERSON.is_open()) {
@@ -128,7 +132,7 @@ UserData* UserAction::createUser(){
     CreateAnotherData(user);
 
     std::ofstream OUT_PERSON;
-    f = filename + "person.txt";
+    f = filename + PersonFile;
     OUT_PERSON.open(f);
 
     if (!OUT_PERSON.is_open()) {
@@ -149,7 +153,7 @@ UserData* UserAction::createUser(){
     OUT_PERSON.close();
 
     std::ofstream F_NEWFILE;
-    f = filename + boost::lexical_cast<std::string> (users_num) + ".txt";
+    f = filename + boost::lexical_cast<std::string> (users_num) + FileExtension;
     F_NEWFILE.open(f);
     if (!F_NEWFILE.is_open()) {
         std::cout << "\nERR READING FILE" << std::endl;
@@ -216,7 +220,7 @@ void UserAction::changeInfo(UserData *user) {
         }
     }
     if (change_count == true) {
-        std::string filename = "DB\\" + boost::lexical_cast<std::string>(user->getID()) + ".txt";
+        std::string filename = DirectoryPath + boost::lexical_cast<std::string>(user->getID()) + FileExtension;
         WriteToFile(filename, user);
     }
 }
@@ -485,14 +489,14 @@ void TakeDataFromFile(std::ifstream&file, UserData* user) {
 
 std::vector<std::string> ReadPersonFile() {
     std::string str;
-    std::string filename = "DB\\", f;
+    std::string filename = DirectoryPath, f;
     int users_num = 0;
 
     std::vector<std::string> data;
     UserData* user = new UserData;
 
     std::ifstream F_PERSON;
-    f = filename + "person.txt";
+    f = filename + PersonFile;
     F_PERSON.open(f);
     if (!F_PERSON.is_open()) {
         std::cout << "\nERR READING FILE" << std::endl;
