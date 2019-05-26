@@ -10,8 +10,6 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17 -g -pthread")
 set(PROJECT_ROOT .)
 
 
-#set(SRC ./src/${})
-
 set(SRC ./src/server.cpp ./src/client_connection.cpp ./src/request.cpp
         ./src/cl_parser.cpp  ./src/db_parser.cpp ./src/data_base_adapter.cpp
         ./src/query_processor.cpp ./../model_db/src/SearchData.cpp)
@@ -37,14 +35,3 @@ add_executable(main  ${SRC} ./main.cpp)
 target_link_libraries(main  pthread)
 target_link_libraries(main ${Boost_LIBRARIES})
 target_link_libraries(main ${USED_LIBS} Net)
-
-#############################################
-
-#cmake_minimum_required(VERSION 3.13)
-#project(myProject)
-
-#set(CMAKE_CXX_STANDARD 11)
-#add_executable(myProject main.cpp)
-
-#find_package(Boost 1.58.0 REQUIRED COMPONENTS system filesystem)
-#target_link_libraries(myProject ${Boost_LIBRARIES})

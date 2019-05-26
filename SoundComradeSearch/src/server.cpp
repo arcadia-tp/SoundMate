@@ -41,8 +41,7 @@ class ServerImpl : std::enable_shared_from_this<ServerImpl> {
     boost::asio::io_service service;
     
  private:
-    static void accept_thread(ServerImpl *server_impl, std::shared_ptr<AbsDataBaseAdapter<MapRequest>> &DB_adapter,
-                    boost::thread_group &threads);
+    static void accept_thread(ServerImpl *server_impl, std::shared_ptr<AbsDataBaseAdapter<MapRequest>> &DB_adapter);
     static void handle_client_thread(ServerImpl *server_impl, std::shared_ptr<AbsDataBaseAdapter<MapRequest>> &DB_adapter,
                     ClientPtr &client_conn);
 };
@@ -56,12 +55,12 @@ void Server::RunServer() {
 
 void ServerImpl::ServerImpl::RunServer() {
     boost::thread_group threads;
-    threads.create_thread(std::bind(accept_thread, this, std::ref(DB_adapter), std::ref(threads)));
+    threads.create_thread(std::bind(accept_thread, this, std::ref(DB_adapter)));
     threads.join_all();
 }
 
 void ServerImpl::accept_thread(ServerImpl *server_impl, 
-        std::shared_ptr<AbsDataBaseAdapter<MapRequest>> &DB_adapter, boost::thread_group &threads) {
+        std::shared_ptr<AbsDataBaseAdapter<MapRequest>> &DB_adapter) {
     boost::thread_group l_threads;
     boost::asio::ip::tcp::acceptor acceptor(server_impl->service,
         boost::asio::ip::tcp::endpoint(

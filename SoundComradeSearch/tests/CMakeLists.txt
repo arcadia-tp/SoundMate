@@ -15,16 +15,6 @@ set(INCLUDE ${TEST_ROOT}/include)
 
 set(GMOCK_DIR ${PROJECT_ROOT}/shared_files/googletest/googlemock/)
 
-#set(SOURCE_LIB ${INCLUDE}/test_parser.cpp)
-
-#set(SRC ../src/client_connection.cpp ../src/cl_parser.cpp ../src/query_processor.cpp 
-#      ../src/data_base_query.cpp ../src/db_parser.cpp)
-
-#set(SRC ../src/${})
-
-#set(TEST_SRC ./src/test_cl_parser.cpp ./src/test_client_connection.cpp 
-#      ./src/test_query_processor.cpp ./src/test_data_base_query ./src/test_db_parser.cpp)
-
 set(SRC ../src/cl_parser.cpp ../src/db_parser.cpp ../src/query_processor.cpp)
 
 set(TEST_SRC ./src/test_cl_parser.cpp ./src/test_db_parser.cpp ./src/test_query_processor.cpp)

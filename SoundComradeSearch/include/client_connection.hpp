@@ -15,7 +15,7 @@ enum {READING, READY_TO_PROCESS};
 template <class Socket, class Request>
 class ClientConnection : public AbstractConnection<Socket, Request> {
   public:
-    ClientConnection(boost::asio::io_service &service);
+    ClientConnection(boost::asio::io_service &service);  //remove
     void AnswerToClient() override;
     void StopConnection() override;
     void ReadRequest() override;
