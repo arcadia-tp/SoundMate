@@ -6,4 +6,4 @@
 *.vscode
 *CMakeFiles/
 *.swp
-*.o
+

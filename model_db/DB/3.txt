@@ -1,0 +1,13 @@
+id: 3
+login: ccc
+password: pasccc
+name: Yar
+surname: Bond
+birthdate: 05.06.1999
+info: Good guy.
+avatar: D:\\av.png
+vk y.com
+mail yar@mail.ru
+number 89167496387
+music: drums guitar | classic jazz
+friends: -

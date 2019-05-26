@@ -1,0 +1,13 @@
+id: 1
+login: aaa
+password: pasaa
+name: Anna
+surname: Lin
+birthdate: 18.07.1999
+info: Interesting person.
+avatar: C:\\1.png
+vk ann.com
+mail ann@mail.ru
+number 89178394687
+music: guitar piano | jazz
+friends: -
