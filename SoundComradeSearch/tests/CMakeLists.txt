@@ -26,6 +26,7 @@ set(GMOCK_DIR ${PROJECT_ROOT}/shared_files/googletest/googlemock/)
 #      ./src/test_query_processor.cpp ./src/test_data_base_query ./src/test_db_parser.cpp)
 
 set(SRC ../src/cl_parser.cpp ../src/db_parser.cpp ../src/query_processor.cpp)
+
 set(TEST_SRC ./src/test_cl_parser.cpp ./src/test_db_parser.cpp ./src/test_query_processor.cpp)
 
 

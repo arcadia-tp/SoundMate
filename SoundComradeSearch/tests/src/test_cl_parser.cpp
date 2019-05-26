@@ -1,7 +1,7 @@
-#include "../../include/cl_parser.hpp"
-#include "../../src/cl_parser.cpp"
 #include <gtest/gtest.h>
 #include <gmock/gmock.h>
+
+#include "../../include/cl_parser.hpp"
 
 using ::testing::AtLeast;
 using ::testing::_;

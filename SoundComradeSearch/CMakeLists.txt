@@ -5,14 +5,16 @@ set(CMAKE_CXX_STANDARD 17)
 
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17 -pthread")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17 -g -pthread")
 
 set(PROJECT_ROOT .)
 
 
 #set(SRC ./src/${})
 
-set(SRC ./src/server.cpp ./src/client_connection.cpp ./src/request.cpp ./src/cl_parser.cpp)
+set(SRC ./src/server.cpp ./src/client_connection.cpp ./src/request.cpp
+        ./src/cl_parser.cpp  ./src/db_parser.cpp ./src/data_base_adapter.cpp
+        ./src/query_processor.cpp ./../model_db/src/SearchData.cpp)
 
 SET(Boost_USE_STATIC_LIBS OFF)
 SET(Boost_USE_MULTITHREAD ON)
@@ -26,8 +28,6 @@ ENDIF(Boost_FOUND)
 SET(USED_LIBS ${Boost_SYSTEM_LIBRARY} ${Boost_FILESYSTEM_LIBRARY} ${Boost_THREAD_LIBRARY} ${Boost_REGEX_LIBRARY})
 
 include_directories("include/")
-
-include_directories("src/")
 
 add_library(Net src/server.cpp)
 

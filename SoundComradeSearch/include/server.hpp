@@ -1,18 +1,20 @@
 #ifndef SERVER_HPP
 #define SERVER_HPP
 
-#include <abs_server.hpp>
+#include <memory>
 #include <string>
+
+#include <abs_server.hpp>
 
 class ServerImpl;
 
 class Server : public AbstractServer {
  public:
-    Server(std::string ip, uint port); //server impl by pointer
+    Server(std::string ip, uint port);
     void RunServer();
     ~Server();
  private:
-    ServerImpl *server_impl_;
+    std::shared_ptr<ServerImpl> server_impl_;
 };
 
 

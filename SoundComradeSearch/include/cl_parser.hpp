@@ -1,16 +1,11 @@
 #ifndef PARSER_HPP
 #define PARSER_HPP
 
-#include <string>
+#include <abs_cl_parser.hpp>
 
-#include <category.hpp>
-
-class AbstractParser {
+class ClientParser : public AbstractParser {
  public:
-    virtual ClientQuery Parse(const std::string &string) = 0;
-    virtual ~AbstractParser() {};
+    ClientQuery Parse(const std::string &string) override;
 };
-
-// AbstractParser::~AbstractParser() {}
 
 #endif

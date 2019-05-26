@@ -1,16 +1,17 @@
-#ifndef CALCULATOR_HPP
-#define CALCULATOR_HPP
+#ifndef QUERY_PROCESSOR_HPP
+#define QUERY_PROCESSOR_HPP
 
+#include <map>
 
-#include <response_from_db.hpp>
-#include <category.hpp>
+#include <abs_query_processor.hpp>
 
-template <class UserContainer>
-class AbstractProcessor {
-public:
-    virtual void ProceedCategoryQuery(const Category &,
-        const std::vector<UserData> &, UserContainer &) = 0;
-    virtual ~AbstractProcessor() {};
+typedef std::map<int, int> UsersMap;
+
+class QueryProcessor : public AbstractProcessor<UsersMap> {
+ public:
+  void ProceedCategoryQuery(const Category &category,
+                            const std::vector<UserData> &response_vector,
+                            UsersMap &users_map);
 };
 
 #endif

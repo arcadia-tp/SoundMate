@@ -1,7 +1,7 @@
-#include "../../include/query_processor.hpp"
-#include "../../src/query_processor.cpp"
 #include <gtest/gtest.h>
 #include <gmock/gmock.h>
+
+#include "../../include/query_processor.hpp"
 
 using ::testing::AtLeast;
 using ::testing::_;
@@ -39,9 +39,17 @@ TEST(QuaryCategoryProcessorTest, ValidStrings) {
     user_data3.data_vector.push_back("guitar");
     response_vector.push_back(user_data3);
     
+    UserData user_data4;
+    user_data3.user_id = 4;
+    user_data3.data_vector.push_back("drum");
+    user_data3.data_vector.push_back("guitar");
+    response_vector.push_back(user_data3);
+
     processor->ProceedCategoryQuery(category, response_vector, users_map);
 
     EXPECT_EQ(users_map.at(1), 2);
     EXPECT_EQ(users_map.at(2), 3);
     EXPECT_EQ(users_map.at(3), 5);
+    EXPECT_EQ(users_map.at(4), 2);
+
 }
