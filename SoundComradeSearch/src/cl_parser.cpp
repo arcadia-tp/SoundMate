@@ -1,7 +1,4 @@
-#include <algorithm>
-
 #include <cl_parser.hpp>
-
 
 const std::string kID = "id:";
 

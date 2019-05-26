@@ -1,10 +1,4 @@
-#include <boost/asio/ip/tcp.hpp>
-#include <boost/chrono.hpp>
-#include <boost/thread/thread.hpp>
-#include <iostream>
-#include <memory>
-#include <algorithm>
-#include <string>
+#include <boost/asio.hpp>
 
 #include <request.hpp>
 #include <client_connection.hpp>
@@ -13,11 +7,12 @@
 
 typedef boost::asio::ip::tcp::socket BSocket;
 typedef std::map<int, int> UserMap;
+typedef boost::asio::io_service BService;
 
 template<>
-class ClientConnectionImpl<BSocket, ClientQuery, UserMap> {
+class ClientConnectionImpl<BSocket, ClientQuery, UserMap, BService> {
  public:
-    ClientConnectionImpl(boost::asio::io_service &service) : sock_(service), 
+    ClientConnectionImpl(BService &service) : sock_(service), 
             already_read_(0), state_(READING) {
         parser_ = new ClientParser();
     };
@@ -46,18 +41,18 @@ class ClientConnectionImpl<BSocket, ClientQuery, UserMap> {
 };
 
 template <>
-ClientConnection<BSocket, ClientQuery, UserMap>::ClientConnection(
+ClientConnection<BSocket, ClientQuery, UserMap, BService>::ClientConnection(
                     boost::asio::io_service &service) :
-    implementor_(new ClientConnectionImpl<BSocket, ClientQuery, UserMap>(service)) {
+    implementor_(new ClientConnectionImpl<BSocket, ClientQuery, UserMap, BService>(service)) {
 }
 
 template <>
-void ClientConnection<BSocket, ClientQuery, UserMap>::StopConnection() {
+void ClientConnection<BSocket, ClientQuery, UserMap, BService>::StopConnection() {
     implementor_->StopConnection();
 }
 
 template <>
-void ClientConnection<BSocket, ClientQuery, UserMap>::ReadRequest() {
+void ClientConnection<BSocket, ClientQuery, UserMap, BService>::ReadRequest() {
     implementor_->ReadRequest();
 }
 
@@ -67,37 +62,37 @@ void ClientConnection<BSocket, ClientQuery, UserMap>::ReadRequest() {
 // }
 
 template <>
-void ClientConnection<BSocket, ClientQuery, UserMap>::SendDataToClient(const std::map<int, int> &users) {
+void ClientConnection<BSocket, ClientQuery, UserMap, BService>::SendDataToClient(const std::map<int, int> &users) {
     implementor_->SendDataToClient(users);
 }
 
 template <>
-void ClientConnection<BSocket, ClientQuery, UserMap>::AnswerToClient() {
+void ClientConnection<BSocket, ClientQuery, UserMap, BService>::AnswerToClient() {
     implementor_->AnswerToClient();
 }
 
 template <>
-int ClientConnection<BSocket, ClientQuery, UserMap>::GetState() {
+int ClientConnection<BSocket, ClientQuery, UserMap, BService>::GetState() {
   return implementor_->GetState();
 }
 
 template <>
-BSocket &ClientConnection<BSocket, ClientQuery, UserMap>::Sock() {
+BSocket &ClientConnection<BSocket, ClientQuery, UserMap, BService>::Sock() {
   return implementor_->Sock();
 }
 
 template <>
-ClientQuery ClientConnection<BSocket, ClientQuery, UserMap>::Parse( ) {
+ClientQuery ClientConnection<BSocket, ClientQuery, UserMap, BService>::Parse( ) {
     return implementor_->Parse();
 }
 
 template <>
-ClientConnection<BSocket, ClientQuery, UserMap>::~ClientConnection() {
+ClientConnection<BSocket, ClientQuery, UserMap, BService>::~ClientConnection() {
     delete implementor_;
 }
 
 
-void ClientConnectionImpl<BSocket, ClientQuery, UserMap>::ReadRequest() {
+void ClientConnectionImpl<BSocket, ClientQuery, UserMap, BService>::ReadRequest() {
     if (sock_.available())
             already_read_ += sock_.read_some(
                 boost::asio::buffer(message_buffer_ + already_read_, MAX_MSG - already_read_));
@@ -111,20 +106,19 @@ void ClientConnectionImpl<BSocket, ClientQuery, UserMap>::ReadRequest() {
     message_ = std::string(message_buffer_, pos);
 }
 
-void ClientConnectionImpl<BSocket, ClientQuery, UserMap>::AnswerToClient() {
-    std::cout << std::endl << "answer is " << message_ << std::endl;
+void ClientConnectionImpl<BSocket, ClientQuery, UserMap, BService>::AnswerToClient() {
     sock_.write_some(boost::asio::buffer(message_));
 }
 
-void ClientConnectionImpl<BSocket, ClientQuery, UserMap>::StopConnection() {
+void ClientConnectionImpl<BSocket, ClientQuery, UserMap, BService>::StopConnection() {
     sock_.close();
 }
 
-ClientQuery ClientConnectionImpl<BSocket, ClientQuery, UserMap>::Parse() {
+ClientQuery ClientConnectionImpl<BSocket, ClientQuery, UserMap, BService>::Parse() {
     return parser_->Parse(message_);
 }
 
-void ClientConnectionImpl<BSocket, ClientQuery, UserMap>::SendDataToClient(const std::map<int, int> &users) {
+void ClientConnectionImpl<BSocket, ClientQuery, UserMap, BService>::SendDataToClient(const std::map<int, int> &users) {
     std::vector <std::pair <int, int>> vec;
     for (auto i: users) {
         vec.push_back(i);

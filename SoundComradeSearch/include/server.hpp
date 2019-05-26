@@ -17,5 +17,4 @@ class Server : public AbstractServer {
     std::shared_ptr<ServerImpl> server_impl_;
 };
 
-
 #endif

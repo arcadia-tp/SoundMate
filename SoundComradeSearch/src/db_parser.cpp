@@ -1,6 +1,3 @@
-#include <algorithm>
-#include <iostream>
-
 #include <db_parser.hpp>
 
 const std::string kID = "id:";
@@ -8,7 +5,6 @@ const std::string kID = "id:";
 ResponseFromDB DBParser::Parse(const std::string &string) {
     ResponseFromDB response;
 
-    std::cout << string << '\n';
     int begin = string.find(kID);
 
     int end = string.find("|", begin);

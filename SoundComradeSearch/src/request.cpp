@@ -1,3 +1,5 @@
+#include <map>
+
 #include <request.hpp>
 #include <query_processor.hpp>
 

@@ -4,7 +4,8 @@
 
 typedef std::map<int, int> UsersMap;
 
-void QueryProcessor::ProceedCategoryQuery(const Category &category,
+template <>
+void QueryProcessor<UsersMap>::ProceedCategoryQuery(const Category &category,
                           const std::vector<UserData> &response_vector,
                           UsersMap &users_map) {
   for (auto user : response_vector) {

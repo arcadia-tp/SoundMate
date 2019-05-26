@@ -1,28 +1,21 @@
-#include <server.hpp>
-#include <iostream>
-
 #include <boost/asio.hpp>
-#include <boost/chrono.hpp>
-#include <boost/thread/thread.hpp>
-#include <boost/asio/ip/tcp.hpp>
 #include <boost/thread.hpp>
-#include <memory>
-#include <functional>
 
 #include <request.hpp>
 #include <category.hpp>
 #include <client_connection.hpp>
 #include <data_base_adapter.hpp>
-
 #include <abs_query_processor.hpp>
 #include <query_processor.hpp>
 #include <db_parser.hpp>
+#include <server.hpp>
 
-typedef std::map<int, int> UserMap; //
+typedef std::map<int, int> UsersMap;
 typedef boost::asio::ip::tcp::socket BSocket;
 typedef Request<std::map<int, int>> MapRequest;
+typedef boost::asio::io_service BService;
 typedef std::shared_ptr<AbstractConnection<BSocket, 
-            ClientQuery, UserMap>> ClientPtr;
+            ClientQuery, UsersMap>> ClientPtr;
 typedef std::shared_ptr<MapRequest> RequestPtr;
 typedef std::vector<ClientPtr> ClientsArray;
 
@@ -30,7 +23,7 @@ typedef std::vector<ClientPtr> ClientsArray;
 class ServerImpl : std::enable_shared_from_this<ServerImpl> {
  public:
     ServerImpl(std::string ip, uint port) : ip_(ip), port_(port) {
-        DB_adapter.reset(new DataBaseAdapter<MapRequest>(service, new DBParser()));
+        DB_adapter.reset(new DataBaseAdapter<BSocket, MapRequest, BService>(service, new DBParser()));
     };
     void RunServer();
     ~ServerImpl() {};
@@ -38,13 +31,14 @@ class ServerImpl : std::enable_shared_from_this<ServerImpl> {
  private:
     std::string ip_;
     int port_;
-    std::shared_ptr<AbsDataBaseAdapter<MapRequest>> DB_adapter;
+    std::shared_ptr<AbsDataBaseAdapter> DB_adapter;
     boost::asio::io_service service;
     
  private:
-    static void accept_thread(ServerImpl *server_impl, std::shared_ptr<AbsDataBaseAdapter<MapRequest>> &DB_adapter);
-    static void handle_client_thread(ServerImpl *server_impl, std::shared_ptr<AbsDataBaseAdapter<MapRequest>> &DB_adapter,
-                    ClientPtr &client_conn);
+    static void accept_thread(ServerImpl *server_impl,
+            std::shared_ptr<AbsDataBaseAdapter> &DB_adapter);
+    static void handle_client_thread(ServerImpl *server_impl, 
+            std::shared_ptr<AbsDataBaseAdapter> &DB_adapter, ClientPtr &client_conn);
 };
 
 Server::Server(std::string ip, uint port) : server_impl_(new ServerImpl(ip, port)) {}
@@ -61,8 +55,8 @@ void ServerImpl::ServerImpl::RunServer() {
 }
 
 void ServerImpl::accept_thread(ServerImpl *server_impl, 
-        std::shared_ptr<AbsDataBaseAdapter<MapRequest>> &DB_adapter) {
-    boost::thread_group l_threads;
+        std::shared_ptr<AbsDataBaseAdapter> &DB_adapter) {
+    boost::thread_group local_threads;
     boost::asio::ip::tcp::acceptor acceptor(server_impl->service,
         boost::asio::ip::tcp::endpoint(
             boost::asio::ip::address::from_string(server_impl->ip_), server_impl->port_
@@ -70,18 +64,18 @@ void ServerImpl::accept_thread(ServerImpl *server_impl,
     );
 
     while (true) {
-        ClientPtr new_conn_ptr(new ClientConnection<BSocket, ClientQuery, UserMap>(server_impl->service));
+        ClientPtr new_conn_ptr(new ClientConnection<BSocket, ClientQuery, UsersMap, BService>(server_impl->service));
         acceptor.accept(new_conn_ptr->Sock());
 
-        l_threads.create_thread(std::bind(handle_client_thread, server_impl,
+        local_threads.create_thread(std::bind(handle_client_thread, server_impl,
                 std::ref(DB_adapter), std::move(new_conn_ptr)));
     }
-    l_threads.join_all();
+    local_threads.join_all();
 }
 
 
 void ServerImpl::handle_client_thread(ServerImpl *server_impl, 
-        std::shared_ptr<AbsDataBaseAdapter<MapRequest>> &DB_adapter, ClientPtr &client_conn) {
+        std::shared_ptr<AbsDataBaseAdapter> &DB_adapter, ClientPtr &client_conn) {
     
     while (client_conn->GetState() == READING) {
         client_conn->ReadRequest();
@@ -89,7 +83,7 @@ void ServerImpl::handle_client_thread(ServerImpl *server_impl,
 
     ClientQuery query_from_client = client_conn->Parse();
 
-    std::shared_ptr<AbstractProcessor<UsersMap>> processor(new QueryProcessor());
+    std::shared_ptr<AbstractProcessor<UsersMap>> processor(new QueryProcessor<UsersMap>());
 
     MapRequest request(query_from_client, processor);
     while(request.GetRequestState() != request_state::READY_FOR_CLIENT) {

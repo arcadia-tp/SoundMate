@@ -7,16 +7,15 @@
 #include <abs_db_parser.hpp>
 #include <abs_data_base_adapter.hpp>
 
-template  <class Request>
-class DataBaseAdapter : public AbsDataBaseAdapter<Request> {
+template  <class Socket, class Request, class Service>
+class DataBaseAdapter : public AbsDataBaseAdapter {
  public:
-    DataBaseAdapter(boost::asio::io_service &service,
-                                   AbsDBParser *parser);
+    DataBaseAdapter(Service &service, AbsDBParser *parser);
     void StopConnection();
     ResponseFromDB GetResponse(const std::string &);
     ~DataBaseAdapter();
  private:
-    boost::asio::ip::tcp::socket sock_;
+    Socket sock_;
     char message_buffer_[1024];
     std::shared_ptr<AbsDBParser> parser_;
 };

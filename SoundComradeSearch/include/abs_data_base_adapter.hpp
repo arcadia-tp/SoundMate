@@ -4,8 +4,7 @@
 #include <memory>
 #include <string>
 
-template <class Request>
-class AbsDataBaseAdapter : std::enable_shared_from_this<AbsDataBaseAdapter<Request>> {
+class AbsDataBaseAdapter : std::enable_shared_from_this<AbsDataBaseAdapter> {
  public:
     virtual ResponseFromDB GetResponse(const std::string &) = 0;
     virtual ~AbsDataBaseAdapter() {};
