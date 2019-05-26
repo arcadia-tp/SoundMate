@@ -12,7 +12,7 @@ set(PROJECT_ROOT .)
 
 set(SRC ./src/server.cpp ./src/client_connection.cpp ./src/request.cpp
         ./src/cl_parser.cpp  ./src/db_parser.cpp ./src/data_base_adapter.cpp
-        ./src/query_processor.cpp ./../model_db/src/SearchData.cpp)
+        ./src/query_processor.cpp) #./../model_db/src/SearchData.cpp)
 
 SET(Boost_USE_STATIC_LIBS OFF)
 SET(Boost_USE_MULTITHREAD ON)

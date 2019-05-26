@@ -1,9 +1,9 @@
 #include <data_base_adapter.hpp>
 #include <request.hpp>
 
-// #include <../../model_db/include/SearchData.h>
+// #include <SearchData.h>
 
-std::string GetIdFromSearch(std::string search_string);
+std::string GetIdFromSearch(std::string search_string){};
 
 typedef Request<std::map<int, int>> MapRequest;
 

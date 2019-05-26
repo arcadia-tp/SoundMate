@@ -18,10 +18,11 @@
 #include <query_processor.hpp>
 #include <db_parser.hpp>
 
+typedef std::map<int, int> UserMap; //
 typedef boost::asio::ip::tcp::socket BSocket;
 typedef Request<std::map<int, int>> MapRequest;
 typedef std::shared_ptr<AbstractConnection<BSocket, 
-            ClientQuery>> ClientPtr;
+            ClientQuery, UserMap>> ClientPtr;
 typedef std::shared_ptr<MapRequest> RequestPtr;
 typedef std::vector<ClientPtr> ClientsArray;
 
@@ -69,7 +70,7 @@ void ServerImpl::accept_thread(ServerImpl *server_impl,
     );
 
     while (true) {
-        ClientPtr new_conn_ptr(new ClientConnection<BSocket, ClientQuery>(server_impl->service));
+        ClientPtr new_conn_ptr(new ClientConnection<BSocket, ClientQuery, UserMap>(server_impl->service));
         acceptor.accept(new_conn_ptr->Sock());
 
         l_threads.create_thread(std::bind(handle_client_thread, server_impl,
