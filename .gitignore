@@ -1,0 +1,10 @@
+*Makefile
+*CMakeCache.txt
+*cmake_install.cmake
+*.a
+*main
+*.vscode
+*CMakeFiles/
+*.swp
+*.o
+/model_db/
