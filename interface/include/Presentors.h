@@ -2,94 +2,107 @@
 #define SOUNDMATE_PRESENTORS_H
 
 #include <vector>
+#include <queue>
+#include <memory>
 #include "Views.h"
 #include "Models.h"
-
+#include "PresentEvents.h"
 
 class IPresent {
 public:
-    IPresent(IView* _view, IModel* _model) : model(_model), currentView(_view) {
+    IPresent(std::shared_ptr<IView> _view, std::shared_ptr<IModel>& _model) : model(_model), currentView(_view) {
         views.push_back(currentView);
     }
     virtual ~IPresent() = 0;
-    virtual void changeView() = 0;
-    virtual void update() = 0;
-private:
-    IModel* model;
-    std::vector<IView *> views;
-    IView* currentView;
+    virtual void ChangeView() = 0;
+    virtual void Update() = 0;
+    virtual void HandleEvent(Event&) {}
+    virtual void GetEntireEvents(IInteractNotify& event);
+    virtual void HandleButton(ButtonEvent&) = 0;
+//    virtual void HandleFields(FieldEvent&) = 0;
+protected:
+    std::shared_ptr<IModel> model;
+    std::vector<std::shared_ptr<IView>> views;
+    std::shared_ptr<IView> currentView;
+    // очередь событий
+    std::queue<Event> events;
+    ListenerButton buttonsListener;
 };
 
-IPresent::~IPresent() {
-    delete model;
-    for (auto view : views) {
-        delete view;
-    }
-}
+//void IPresent::HandleButton(ButtonEvent& event) {
+//}
 
-class IPresentButtonable : public IPresent {
+//IPresent::~IPresent() = default;
+
+class IPresentWithFields : public IPresent {
 public:
-    IPresentButtonable(IView* _view, IModel* _model) : IPresent(_view, _model) {};
-    ~IPresentButtonable() override {};
-    virtual bool handleButton(Event &) = 0;
+    IPresentWithFields(std::shared_ptr<IViewWithFields> _view, std::shared_ptr<IModel>& _model)
+            : IPresent(std::dynamic_pointer_cast<IView>(_view), _model) {};
+    virtual ~IPresentWithFields() = 0;
+    virtual void HandleFields(FieldEvent&) = 0;
+
+protected:
+    ListenerField fieldsListener;
 };
 
-class MainScreenPresent : public IPresentButtonable {
+//IPresentWithFields::~IPresentWithFields() {};
+
+class MainScreenPresent : public IPresentWithFields {
 public:
-    MainScreenPresent(IView* _view, IModel* _model) : IPresentButtonable(_view, _model) {};
+    MainScreenPresent(std::shared_ptr<IViewWithFields> _view, std::shared_ptr<IModel> _model) : IPresentWithFields(_view, _model) {};
     ~MainScreenPresent() override {};
-    void changeView() override {};
-    bool handleButton(Event &) override {};
-    void handlerFields();
-    void update() override {};
+    void ChangeView() override {};
+    void HandleButton(ButtonEvent &) override {};
+    void HandleFields(FieldEvent&) override {};
+    void Update() override;
 };
 
-class RegisterScreenPresent : public IPresentButtonable {
+class RegisterScreenPresent : public IPresentWithFields {
 public:
-    RegisterScreenPresent(IView* _view, IModel* _model) : IPresentButtonable(_view, _model) {};
+    RegisterScreenPresent(std::shared_ptr<IViewWithFields> _view, std::shared_ptr<IModel> _model) : IPresentWithFields(_view, _model) {};
     ~RegisterScreenPresent() override {};
-    void changeView() override {};
-    bool handleButton(Event &) override {};
-    void handleFields();
-    void update() override {};
+    void ChangeView() override {};
+    void HandleButton(ButtonEvent &) override {};
+    void HandleFields(FieldEvent &) override {};
+    void Update() override {};
 };
 
-class UserScreenPresent : public IPresentButtonable {
+class UserScreenPresent : public IPresentWithFields {
 public:
-    UserScreenPresent(IView* _view, IModel* _model) : IPresentButtonable(_view, _model) {};
+    UserScreenPresent(std::shared_ptr<IViewWithFields> _view, std::shared_ptr<IModel> _model) : IPresentWithFields(_view, _model) {};
     ~UserScreenPresent() override {};
-    void changeView() override {};
-    bool handleButton(Event &) override {};
-    bool handleFields();
-    void update() override {};
+    void ChangeView() override {};
+    void HandleButton(ButtonEvent &) override {};
+    void HandleFields(FieldEvent &) override {};
+    void Update() override {};
 
 private:
-    std::vector<User *> friends;
+    std::vector<std::shared_ptr<User>> friends;
 };
 
-class MessengerScreenPresent : public IPresentButtonable {
+class MessengerScreenPresent : public IPresentWithFields {
 public:
-    MessengerScreenPresent(IView* _view, IModel* _model) : IPresentButtonable(_view, _model) {};
+    MessengerScreenPresent(std::shared_ptr<IViewWithFields> _view, std::shared_ptr<IModel> _model) : IPresentWithFields(_view, _model) {};
     ~MessengerScreenPresent() override {};
-    void changeView() override {};
-    bool handleButton(Event &) override {};
-    bool handleFields();
-    void getChats();
-    void update() override {};
+    void ChangeView() override {};
+    void HandleButton(ButtonEvent &) override {};
+    void HandleFields(FieldEvent &) override;
+    void GetChats();
+    void Update() override {};
 
 private:
-    std::vector<Chat *> chats;
-    std::vector<Message *> messages;
+    std::vector<std::shared_ptr<Chat>> chats;
+    std::vector<std::shared_ptr<Message>> messages;
 };
 
-class SearchPresent : public IPresentButtonable {
+class SearchPresent : public IPresent {
 public:
-    SearchPresent(IView* _view, IModel* _model) : IPresentButtonable(_view, _model) {};
+    SearchPresent(std::shared_ptr<IView> _view, std::shared_ptr<IModel> _model) : IPresent(_view, _model) {};
     ~SearchPresent() override {};
-    void changeView() override {};
-    bool handleButton(Event &) override {};
-    void setFilter();
-    void update() override {};
+    void ChangeView() override {};
+    void HandleButton(ButtonEvent &) override {};
+    void SetFilter();
+    void Update() override {};
 
 private:
     Filter filters;

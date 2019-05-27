@@ -3,9 +3,16 @@
 
 #include <string>
 #include <vector>
+#include <memory>
 #include "Utils.h"
+#include "PresentEvents.h"
 
-typedef struct permissions {
+struct Permissions {
+    Permissions() : viewPrivateData(false), viewSettings(false),
+                    viewFriends(false), viewChats(false),
+                    friendInviteAvailable(false), groupInviteAvailable(false),
+                    sendMessageAvailable(false) {};
+    ~Permissions() = default;
     bool viewPrivateData;
     bool viewSettings;
     bool viewFriends;
@@ -13,29 +20,67 @@ typedef struct permissions {
     bool friendInviteAvailable;
     bool groupInviteAvailable;
     bool sendMessageAvailable;
-} Permissions;
+};
 
+struct FriendPermissions : public Permissions {
+    FriendPermissions() {
+        viewPrivateData = true;
+        viewSettings = false;
+        viewFriends = true;
+        viewChats = false;
+        friendInviteAvailable = false;
+        groupInviteAvailable = true;
+        sendMessageAvailable = true;
+    };
+    ~FriendPermissions() = default;
+};
+
+struct MyPermissions : public Permissions {
+    MyPermissions() {
+        viewPrivateData = true;
+        viewSettings = true;
+        viewFriends = true;
+        viewChats = true;
+        friendInviteAvailable = false;
+        groupInviteAvailable = false;
+        sendMessageAvailable = false;
+    };
+    ~MyPermissions() = default;
+};
+
+struct StrangerPermissions : public Permissions {
+    StrangerPermissions() {
+        viewPrivateData = false;
+        viewSettings = false;
+        viewFriends = false;
+        viewChats = false;
+        friendInviteAvailable = true;
+        groupInviteAvailable = false;
+        sendMessageAvailable = false;
+    };
+    ~StrangerPermissions() = default;
+};
 class IModel {
 public:
     virtual ~IModel() = 0;
 };
 
-IModel::~IModel() {}
+//IModel::~IModel() {};
 
 class MainScreenModel : public IModel {
 public:
     MainScreenModel() : IModel() {};
     ~MainScreenModel() override {};
-    bool autorization(std::string, std::string, int&);
-    std::vector<User *> getRandom();
+    bool Autorization(std::string, std::string, int&);
+    std::vector<std::shared_ptr<User>> GetRandom();
 };
 
 class RegisterScreenModel : public IModel {
 public:
     RegisterScreenModel() : IModel() {};
     ~RegisterScreenModel() override {};
-    bool fillingInfo(Field &);
-    bool registerData(User_Data);
+    bool FillingInfo(FieldEvent &);
+    bool RegisterData(User_Data);
 
 private:
     User_Data userInfo;
@@ -45,8 +90,8 @@ class IUserScreenModel : public IModel {
 public:
     explicit IUserScreenModel(Permissions perms) : IModel(), permissions(perms) {};
     ~IUserScreenModel() override {};
-    User_Data getData(int);
-    Permissions& getPermissions();
+    User_Data GetData(int);
+    Permissions& GetPermissions();
 
 protected:
     User_Data userinfo;
@@ -55,26 +100,26 @@ protected:
 
 class StrangerUserScreenModel : public IUserScreenModel {
 public:
-    explicit StrangerUserScreenModel(Permissions perms) : IUserScreenModel(perms) {};
+    explicit StrangerUserScreenModel(StrangerPermissions perms) : IUserScreenModel(perms) {};
     ~StrangerUserScreenModel() override {};
-    bool inviteToFriend(int);
+    bool InviteToFriend(int);
 };
 
 class FriendUserScreenModel : public IUserScreenModel {
 public:
-    explicit FriendUserScreenModel(Permissions perms) : IUserScreenModel(perms) {};
+    explicit FriendUserScreenModel(FriendPermissions perms) : IUserScreenModel(perms) {};
     ~FriendUserScreenModel() override {};
-    bool sendMessage(std::string);
+    bool SendMessage(std::string);
 };
 
 class MainUserScreenModel : public  IUserScreenModel {
 public:
-    explicit MainUserScreenModel(Permissions perms) : IUserScreenModel(perms) {};
+    explicit MainUserScreenModel(MyPermissions perms) : IUserScreenModel(perms) {};
     ~MainUserScreenModel() override {};
-    bool changeData(User_Data&);
-    bool getFrineds();
-    bool getNews();
-    bool getEvents();
+    bool ChangeData(User_Data&);
+    bool GetFrineds();
+    bool GetNews();
+    bool GetEvents();
 };
 
 #endif //SOUNDMATE_MODELS_H

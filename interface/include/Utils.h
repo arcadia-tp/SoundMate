@@ -1,6 +1,7 @@
 #ifndef SOUNDMATE_UTILS_H
 #define SOUNDMATE_UTILS_H
 
+#include <iostream>
 #include <vector>
 #include <string>
 
@@ -11,35 +12,11 @@ typedef struct filter {
     std::string geolocation;
 } Filter;
 
-class Field {
-public:
-    Field();
-    ~Field();
-    std::string info;
-    std::string data;
-};
-
 class Chat {
 
 };
 
 class User {
-
-};
-
-class Event {
-
-};
-
-class ButtonEvent {
-
-};
-
-class ViewObject {
-
-};
-
-class Button {
 
 };
 
