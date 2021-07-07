@@ -1,0 +1,13 @@
+id: 2
+login: bbb
+password: pasbbb
+name: Ben
+surname: No
+birthdate: 21.09.1996
+info: xxxxm person.
+avatar: -
+vk -
+mail ben@mail.ru
+number 897836453
+music: - | classic jazz
+friends: -
